@@ -1,4 +1,5 @@
 import App, { Container } from 'next/app';
+import Page from '../components/Page';
 
 class MyApp extends App {
     render() {
@@ -8,8 +9,9 @@ class MyApp extends App {
             <Container>
                 {/*This paragraph is on every page and Next.js renders whatever component is loaded as part of the*/}
                 {/*<Component/>, the reason it is imported. It is the ReactChild of the parent component*/}
-                <p>Hey I'm on every page</p>
-                <Component/>
+                <Page>
+                    <Component/>
+                </Page>
             </Container>
         )
     }
