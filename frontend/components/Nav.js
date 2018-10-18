@@ -1,15 +1,25 @@
 import Link from 'next/link'
+import NavStyles from './styles/NavStyles';
 
 // note, a stateless functional component
 const Nav = () => (
-    <div>
+    <NavStyles>
+        <Link href="/items">
+            <a>Items</a>
+        </Link>
         <Link href="/sell">
-            <a>Sell!</a>
+            <a>Sell</a>
         </Link>
-        <Link href="/">
-            <a>Home!</a>
+        <Link href="/signup">
+            <a>Signup</a>
         </Link>
-    </div>
+        <Link href="/orders">
+            <a>Orders</a>
+        </Link>
+        <Link href="/account">
+            <a>Account</a>
+        </Link>
+    </NavStyles>
 );
 
 export default Nav;
