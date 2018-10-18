@@ -22,6 +22,38 @@ const StyledPage = styled.div`
     color: ${props => props.theme.black};
 `;
 
+// a way to specify global properties that are injected into all files
+// notice the use of ${theme.black}; in this case props is not being used because we are not
+// inside ThemeProvider when we inject, however, we are in Page.js, so we can use theme.black
+// could also refactor into its own file
+injectGlobal`
+    @font-face {
+        font-family: 'radnika_next';
+        src: url('/static/radnikanext-medium-webfont.woff2');
+        format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+    html {
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    body {
+        padding: 0;
+        marging: 0;
+        font-size: 1.5rem;
+        line-height: 2;
+        font-family: 'radnika_next';
+    }
+    a {
+        text-decoration: none;
+        color: ${theme.black};
+    }
+`;
+
 const Inner = styled.div`
     max-width: ${props => props.theme.maxWidth};
     margin: 0 auto;
