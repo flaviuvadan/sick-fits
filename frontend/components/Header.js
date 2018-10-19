@@ -1,6 +1,19 @@
 import Nav from './Nav.js';
+import Router from 'next/router';
 import Link from 'next/link';
+import NProgress from 'nprogress';
 import styled from 'styled-components';
+
+// listen to changes in the router as we go from one component to another and set each to a function
+Router.onRouteChangeStart = () => {
+    NProgress.start();
+};
+Router.onRouteChangeComplete = () => {
+    NProgress.done();
+};
+Router.onRouteChangeError = () => {
+    NProgress.done();
+};
 
 // again, using a constant styling variable, tag template literal
 // notice the use of media query to center when we hit < 1300px

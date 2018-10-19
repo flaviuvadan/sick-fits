@@ -11,7 +11,7 @@ const Meta = () => (
         {/*favicon for browser tab icon */}
         <link rel="shortcut icon" href="/static/favicon.png"/>
         {/*loads some custom stylesheet (nprogress)*/}
-        <link rel="stylesheet" type="text/css" href="static/nprogress.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/nprogress.css"/>
         <title>Sick Fits!</title>
     </Head>
 );
