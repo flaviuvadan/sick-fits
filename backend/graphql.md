@@ -1,5 +1,5 @@
 # GraphQL notes (module 3/intro to GraphQL)
-A specification built to implement both a server in GraphQL to server and be able to fetch client data. 
+A specification built to implement both a server in GraphQL and be able to fetch client data from it. 
 Agnostic to programming language. 
 
 GraphQL is a SPEC (specification). GraphQL (in a sense) intends to replace REST or can be set up to sit in front of 
