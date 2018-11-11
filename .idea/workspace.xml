@@ -4,13 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/frontend/components/Header.js" description="export default Header;" line="73" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Update data model">
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/resolvers/newType.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/datamodel.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/datamodel.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/generated/prisma.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/generated/prisma.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,6 +31,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="MD" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="4" />
           <entry key="graphqls" value="1" />
@@ -52,7 +50,7 @@
           <entry key="GraphQL Schema" value="1" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="44" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="TypeScript" value="4" />
           <entry key="YAML" value="2" />
@@ -60,14 +58,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="MD" value="698" />
           <entry key="env" value="60" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="699" />
-          <entry key="js" value="9938" />
+          <entry key="js" value="10107" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="797" />
+          <entry key="txt" value="834" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -75,9 +74,9 @@
         <counts>
           <entry key="GraphQL" value="481" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="9938" />
-          <entry key="Markdown" value="1712" />
-          <entry key="PLAIN_TEXT" value="1301" />
+          <entry key="JavaScript" value="10107" />
+          <entry key="Markdown" value="2410" />
+          <entry key="PLAIN_TEXT" value="1338" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -132,11 +131,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/newType.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="93" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -221,6 +232,7 @@
         <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
         <option value="$PROJECT_DIR$/backend/datamodel.graphql" />
         <option value="$PROJECT_DIR$/backend/src/resolvers/Query.js" />
+        <option value="$PROJECT_DIR$/backend/src/resolvers/newType.MD" />
       </list>
     </option>
   </component>
@@ -326,7 +338,7 @@
       <updated>1539557864063</updated>
       <workItem from="1539557866552" duration="11726000" />
       <workItem from="1540145753631" duration="9761000" />
-      <workItem from="1541976731772" duration="1740000" />
+      <workItem from="1541976731772" duration="2267000" />
     </task>
     <task id="LOCAL-00001" summary="Add a simple example of routing between index(home) and sell pages">
       <created>1539560272524</created>
@@ -461,17 +473,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541977067659</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Implement items() and createItem()">
+      <created>1541978678570</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1541978678570</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23227000" />
+    <option name="totallyTimeSpent" value="23754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="0" width="970" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49734512" visible="true" weight="0.2739726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49734512" visible="true" weight="0.2739726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50265485" side_tool="true" weight="0.2739726" />
       <window_info anchor="bottom" id="GraphQL" weight="0.32920355" />
@@ -537,7 +556,8 @@
     <MESSAGE value="Add dogs example query" />
     <MESSAGE value="Add example query and mutation for dog creation and query" />
     <MESSAGE value="Update data model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update data model" />
+    <MESSAGE value="Implement items() and createItem()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement items() and createItem()" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/jest.setup.js">
@@ -755,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/generated/prisma.graphql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -769,10 +782,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/newType.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="93" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
