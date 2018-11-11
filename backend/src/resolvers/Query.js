@@ -1,14 +1,13 @@
 const Query = {
     /**
-     * Dogs query
-     * @param parent
-     * @param args - arguments passed to dogs
-     * @param ctx - context of the request
+     * Get items
+     * @param parent -
+     * @param args - arguments of items
+     * @param ctx - context of request
      * @param info - additional info
      */
-    dogs(parent, args, ctx, info) {
-        global.dogs = global.dogs || [];
-        return global.dogs;
+    async items(parent, args, ctx, info) {
+        return await ctx.db.query.items();
     }
 };
 

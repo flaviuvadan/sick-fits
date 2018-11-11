@@ -1,16 +1,19 @@
 const Mutation = {
     /**
-     * Create a god
-     * @param parent
-     * @param args - arguments passed to createDogs
+     * Create an item
+     * @param parent -
+     * @param args - arguments of createItem
      * @param ctx - context of request
      * @param info - additional info
      */
-    createDog(parent, args, ctx, info) {
-        global.dogs = global.dogs || [];
-        const newDog = {'name': args.name};
-        global.dogs.push(newDog);
-        return newDog;
+    async createItem(parent, args, ctx, info) {
+        // TODO: check whether user is logged in
+        // access the database
+        return await ctx.db.mutation.createItem({
+            data: {
+                ...args,
+            }
+        }, info); // passing info makes sure item promise upon creation
     }
 };
 
