@@ -1,7 +1,11 @@
+import Items from '../components/Items';
+import React from "react";
+
+
 const Home = () => (
-    <div>
-        <p>Hey!</p>
-    </div>
+	<div>
+		<Items/>
+	</div>
 );
 
 export default Home;

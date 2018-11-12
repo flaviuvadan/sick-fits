@@ -1,5 +1,6 @@
 import React from 'react';
-import Header from "./Header";
+
+import Header from './Header';
 import Meta from "./Meta";
 // ThemeProvider used for React Context, allows specifying values such as the theme and
 // any child can access the values without passing down values (inheritance)
