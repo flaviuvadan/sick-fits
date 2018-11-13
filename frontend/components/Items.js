@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import React, { Component } from 'react';
 import { Query } from 'react-apollo';
 
+import Item from './Item';
 import { ALL_ITEMS_QUERY } from '../queries/queries';
 
 // this would be much nicer with css/scss
@@ -27,9 +28,11 @@ export default class Items extends Component {
 					{({ data, error, loading }) => {
 						if (loading) return (<p>Loading...</p>);
 						if (error) return (<p>Error: {error.message}</p>);
-						return <ItemsList>
-							{data.items.map(item => <p>{item.title}</p>)};
-						</ItemsList>
+						return (
+							<ItemsList>
+								{data.items.map(item => <Item key={item.id} item={item}/>)}
+							</ItemsList>
+						)
 					}}
 				</Query>
 			</div>
