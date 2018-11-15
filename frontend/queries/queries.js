@@ -1,6 +1,5 @@
 import gql from 'graphql-tag';
 
-// could have queries in separate file but not yet
 export const ALL_ITEMS_QUERY = gql`
     query ALL_ITEMS_QUERY {
 		items {
@@ -12,4 +11,25 @@ export const ALL_ITEMS_QUERY = gql`
 			largeImage
 		}
     }
+`;
+
+
+export const CREATE_ITEM_MUTATION = gql`
+	mutation CREATE_ITEM_MUTATION(
+		$title: String!
+		$description: String!
+		$price: Int!
+		$image: String
+		$largeImage: String
+	) {
+        createItem(
+			title: $title
+			description: $description
+			price: $price
+			image: $image
+			largeImage: $largeImage
+		) {
+			id
+		}
+	}
 `;
