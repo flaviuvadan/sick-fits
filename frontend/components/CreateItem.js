@@ -7,6 +7,7 @@ import Form from './styles/Form';
 import formatMoney from '../lib/formatMoney';
 import Error from './ErrorMessage';
 
+// CRED - create, read, edit, delete
 class CreateItem extends Component {
 	state = {
 		title: '',
@@ -70,6 +71,7 @@ class CreateItem extends Component {
 									   required
 									   onChange={this.uploadFile}
 								/>
+								{this.state.image && <img src={this.state.image} alt="Upload preview"/>}
 							</label>
 							<label htmlFor="title">
 								Title
