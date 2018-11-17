@@ -9,13 +9,8 @@ import Error from './ErrorMessage';
 
 // CRUD - create, read, update, delete
 class UpdateItem extends Component {
-	state = {
-		title: '',
-		description: '',
-		image: '',
-		largeImage: '',
-		price: 0,
-	};
+	// will use state to only keep track of updated fields, init to empty object
+	state = {};
 
 	/**
 	 * Handle changes to state

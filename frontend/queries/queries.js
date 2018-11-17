@@ -13,7 +13,6 @@ export const ALL_ITEMS_QUERY = gql`
     }
 `;
 
-
 export const CREATE_ITEM_MUTATION = gql`
 	mutation CREATE_ITEM_MUTATION(
 		$title: String!
@@ -52,4 +51,18 @@ export const UPDATE_ITEM_MUTATION = gql`
             id
         }
     }
+`;
+
+export const ITEM_QUERY = gql`
+	query ITEM_QUERY(
+		$id: ID!
+	) {
+		item(where: {
+			id: $id
+		}) {
+			id
+			title
+			description
+		}
+	}
 `;
