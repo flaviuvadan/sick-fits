@@ -38,8 +38,6 @@ export const UPDATE_ITEM_MUTATION = gql`
     	$title: String!
     	$description: String!
     	$price: Int!
-    	$image: String
-    	$largeImage: String
     ) {
         updateItem(
             title: $title
@@ -49,6 +47,9 @@ export const UPDATE_ITEM_MUTATION = gql`
             largeImage: $largeImage
         ) {
             id
+			title
+			description
+			price
         }
     }
 `;

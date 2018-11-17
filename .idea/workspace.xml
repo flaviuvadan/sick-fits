@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/UpdateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/UpdateItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/queries/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/queries/queries.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,11 +62,11 @@
           <entry key="env" value="60" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="854" />
-          <entry key="js" value="17994" />
+          <entry key="js" value="18027" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="1506" />
+          <entry key="txt" value="1555" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -76,9 +74,9 @@
         <counts>
           <entry key="GraphQL" value="686" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="17944" />
+          <entry key="JavaScript" value="17977" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="2010" />
+          <entry key="PLAIN_TEXT" value="2059" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -118,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/components/UpdateItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="40" />
+            <state relative-caret-position="790">
+              <caret line="78" column="84" lean-forward="true" selection-start-line="78" selection-start-column="84" selection-end-line="78" selection-end-column="84" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -312,7 +310,7 @@
       <updated>1539557864063</updated>
       <workItem from="1539557866552" duration="11726000" />
       <workItem from="1540145753631" duration="9761000" />
-      <workItem from="1541976731772" duration="14565000" />
+      <workItem from="1541976731772" duration="14684000" />
     </task>
     <task id="LOCAL-00001" summary="Add a simple example of routing between index(home) and sell pages">
       <created>1539560272524</created>
@@ -573,17 +571,24 @@
       <option name="project" value="LOCAL" />
       <updated>1542420784340</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Reformat queries file and use ITEM in UpdateItem">
+      <created>1542421355572</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1542421355572</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36052000" />
+    <option name="totallyTimeSpent" value="36171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="0" width="970" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49734512" visible="true" weight="0.2739726" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49734512" visible="true" weight="0.2739726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50265485" side_tool="true" weight="0.2739726" />
       <window_info anchor="bottom" id="GraphQL" weight="0.32920355" />
@@ -632,7 +637,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add GraphQL and Prisma notes&#10;&#10;Add gitignore &#10;&#10;Generate Prisma GraphQL file" />
     <MESSAGE value="Add prisma datamodel" />
     <MESSAGE value="Add server hosting files" />
     <MESSAGE value="Add dogs example query" />
@@ -657,7 +661,8 @@
     <MESSAGE value="Create update.js" />
     <MESSAGE value="Implement update component" />
     <MESSAGE value="Add ITEM_QUERY" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ITEM_QUERY" />
+    <MESSAGE value="Reformat queries file and use ITEM in UpdateItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat queries file and use ITEM in UpdateItem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/components/styles/Table.js">
@@ -1021,8 +1026,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/UpdateItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="790">
+          <caret line="78" column="84" lean-forward="true" selection-start-line="78" selection-start-column="84" selection-end-line="78" selection-end-column="84" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
