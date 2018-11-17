@@ -35,16 +35,16 @@ export const CREATE_ITEM_MUTATION = gql`
 
 export const UPDATE_ITEM_MUTATION = gql`
     mutation UPDATE_ITEM_MUTATION(
-    	$title: String!
-    	$description: String!
-    	$price: Int!
+		$id: ID!
+    	$title: String
+    	$description: String
+    	$price: Int
     ) {
         updateItem(
+			id: $id
             title: $title
             description: $description
             price: $price
-            image: $image
-            largeImage: $largeImage
         ) {
             id
 			title
@@ -64,6 +64,7 @@ export const ITEM_QUERY = gql`
 			id
 			title
 			description
+			price
 		}
 	}
 `;
