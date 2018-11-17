@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/components/SingleItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/SingleItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/SingleItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/item.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,11 +64,11 @@
           <entry key="env" value="60" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="882" />
-          <entry key="js" value="20908" />
+          <entry key="js" value="21001" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="1908" />
+          <entry key="txt" value="1932" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -75,9 +76,9 @@
         <counts>
           <entry key="GraphQL" value="732" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="20840" />
+          <entry key="JavaScript" value="20933" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="2412" />
+          <entry key="PLAIN_TEXT" value="2436" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -111,20 +112,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/pages/item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="105">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/components/SingleItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="90">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -206,8 +210,8 @@
         <option value="$PROJECT_DIR$/frontend/components/Item.js" />
         <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/frontend/components/DeleteItem.js" />
-        <option value="$PROJECT_DIR$/frontend/pages/item.js" />
         <option value="$PROJECT_DIR$/frontend/components/SingleItem.js" />
+        <option value="$PROJECT_DIR$/frontend/pages/item.js" />
       </list>
     </option>
   </component>
@@ -301,7 +305,7 @@
       <updated>1539557864063</updated>
       <workItem from="1539557866552" duration="11726000" />
       <workItem from="1540145753631" duration="9761000" />
-      <workItem from="1541976731772" duration="19222000" />
+      <workItem from="1541976731772" duration="19299000" />
     </task>
     <task id="LOCAL-00001" summary="Add a simple example of routing between index(home) and sell pages">
       <created>1539560272524</created>
@@ -639,11 +643,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542496167795</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Add SingleItem component">
+      <created>1542496218622</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1542496218622</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40709000" />
+    <option name="totallyTimeSpent" value="40786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="0" width="970" height="1200" extended-state="6" />
@@ -698,7 +709,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create Items component and queries package" />
     <MESSAGE value="Create Item component and use in Items" />
     <MESSAGE value="Implement CreateItem mutation" />
     <MESSAGE value="Add CreateItem component" />
@@ -723,7 +733,8 @@
     <MESSAGE value="Add mutator in DeleteItem&#10;&#10;Delete .vscode, no need for it, using WebStorm" />
     <MESSAGE value="Add cache update" />
     <MESSAGE value="Start building item page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start building item page" />
+    <MESSAGE value="Add SingleItem component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SingleItem component" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/components/styles/CloseButton.js">
@@ -1088,17 +1099,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pages/item.js">
+    <entry file="file://$PROJECT_DIR$/frontend/components/SingleItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/SingleItem.js">
+    <entry file="file://$PROJECT_DIR$/frontend/pages/item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="105">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

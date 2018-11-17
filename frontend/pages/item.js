@@ -1,8 +1,11 @@
 import React from "react";
 
+import SingleItem from '../components/SingleItem';
+
+
 const Item = () => (
 	<div>
-		<p>Single Item</p>
+		<SingleItem/>
 	</div>
 );
 
