@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/frontend/components/Header.js" description="export default Header;" line="73" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Add image preview on upload">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/CreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/CreateItem.js" afterDir="false" />
-    </list>
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,7 +31,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="7" />
           <entry key="graphqls" value="2" />
-          <entry key="js" value="73" />
+          <entry key="js" value="74" />
           <entry key="json" value="3" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
@@ -52,7 +46,7 @@
           <entry key="GraphQL" value="5" />
           <entry key="GraphQL Schema" value="2" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="73" />
+          <entry key="JavaScript" value="74" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="1" />
@@ -70,7 +64,7 @@
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="1211" />
+          <entry key="txt" value="1300" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -80,7 +74,7 @@
           <entry key="JSON" value="110" />
           <entry key="JavaScript" value="17286" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="1715" />
+          <entry key="PLAIN_TEXT" value="1804" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -128,11 +122,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="660">
+              <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -278,6 +284,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resolvers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -318,7 +335,7 @@
       <updated>1539557864063</updated>
       <workItem from="1539557866552" duration="11726000" />
       <workItem from="1540145753631" duration="9761000" />
-      <workItem from="1541976731772" duration="13232000" />
+      <workItem from="1541976731772" duration="13315000" />
     </task>
     <task id="LOCAL-00001" summary="Add a simple example of routing between index(home) and sell pages">
       <created>1539560272524</created>
@@ -530,11 +547,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542419342458</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Add mutator and query to schema definition">
+      <created>1542420021808</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1542420021808</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add implementation for new mutator and query">
+      <created>1542420039098</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1542420039098</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34719000" />
+    <option name="totallyTimeSpent" value="34802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="0" width="970" height="1200" extended-state="6" />
@@ -589,8 +620,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add simple Nav component" />
-    <MESSAGE value="Practice adding a styled component" />
     <MESSAGE value="Add styling to Header and extend theme" />
     <MESSAGE value="Add styling to Page" />
     <MESSAGE value="Add nav menu items" />
@@ -614,7 +643,9 @@
     <MESSAGE value="Use CreateItem component on sell page" />
     <MESSAGE value="Add uploadFile method and add HTML definition" />
     <MESSAGE value="Add image preview on upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add image preview on upload" />
+    <MESSAGE value="Add mutator and query to schema definition" />
+    <MESSAGE value="Add implementation for new mutator and query" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add implementation for new mutator and query" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/jest.setup.js">
@@ -892,16 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/graphql.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -967,8 +988,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="660">
+          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
