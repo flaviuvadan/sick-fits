@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { Mutation } from 'react-apollo';
+
 class DeleteItem extends Component {
 	render() {
 		return (
