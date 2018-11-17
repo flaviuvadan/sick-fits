@@ -7,7 +7,7 @@ import Form from './styles/Form';
 import formatMoney from '../lib/formatMoney';
 import Error from './ErrorMessage';
 
-// CRED - create, read, edit, delete
+// CRUD - create, read, update, delete
 class CreateItem extends Component {
 	state = {
 		title: '',
