@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/DeleteItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/DeleteItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/queries/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/queries/queries.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,9 +35,9 @@
         <counts>
           <entry key="MD" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="graphql" value="8" />
+          <entry key="graphql" value="9" />
           <entry key="graphqls" value="4" />
-          <entry key="js" value="83" />
+          <entry key="js" value="86" />
           <entry key="json" value="3" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
@@ -47,10 +49,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="GraphQL" value="6" />
+          <entry key="GraphQL" value="7" />
           <entry key="GraphQL Schema" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="83" />
+          <entry key="JavaScript" value="86" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="1" />
@@ -64,21 +66,21 @@
           <entry key="env" value="60" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="882" />
-          <entry key="js" value="19497" />
+          <entry key="js" value="20334" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="1755" />
+          <entry key="txt" value="1781" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="GraphQL" value="723" />
+          <entry key="GraphQL" value="732" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="19438" />
+          <entry key="JavaScript" value="20266" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="2259" />
+          <entry key="PLAIN_TEXT" value="2285" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -97,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/components/Item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="330">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding>
                 <element signature="e#48#77#0" expanded="true" />
               </folding>
@@ -106,11 +108,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/components/DeleteItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,17 +123,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="75">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+            <state relative-caret-position="738">
+              <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -203,11 +226,11 @@
         <option value="$PROJECT_DIR$/backend/src/resolvers/Query.js" />
         <option value="$PROJECT_DIR$/frontend/pages/update.js" />
         <option value="$PROJECT_DIR$/frontend/components/UpdateItem.js" />
-        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
-        <option value="$PROJECT_DIR$/frontend/components/DeleteItem.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Item.js" />
         <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
         <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Item.js" />
+        <option value="$PROJECT_DIR$/frontend/components/DeleteItem.js" />
+        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
       </list>
     </option>
   </component>
@@ -243,6 +266,17 @@
             <path>
               <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
               <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +335,7 @@
       <updated>1539557864063</updated>
       <workItem from="1539557866552" duration="11726000" />
       <workItem from="1540145753631" duration="9761000" />
-      <workItem from="1541976731772" duration="17460000" />
+      <workItem from="1541976731772" duration="18562000" />
     </task>
     <task id="LOCAL-00001" summary="Add a simple example of routing between index(home) and sell pages">
       <created>1539560272524</created>
@@ -604,19 +638,33 @@
       <option name="project" value="LOCAL" />
       <updated>1542494069624</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Add deleteItem mutator">
+      <created>1542494558748</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1542494558748</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add DELETE_ITEM_MUTATION">
+      <created>1542494702154</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1542494702154</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38947000" />
+    <option name="totallyTimeSpent" value="40049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="0" width="970" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49734512" visible="true" weight="0.2739726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49734512" visible="true" weight="0.2739726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" id="Favorites" order="2" sideWeight="0.50265485" side_tool="true" visible="true" weight="0.2739726" />
+      <window_info id="Favorites" order="2" sideWeight="0.50265485" side_tool="true" visible="true" weight="0.2739726" />
       <window_info anchor="bottom" id="GraphQL" weight="0.32920355" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
@@ -663,8 +711,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement items() and createItem()" />
-    <MESSAGE value="Re-write items by using forwardTo and add MD for adding a new type" />
     <MESSAGE value="Adjust newType.MD" />
     <MESSAGE value="Implement getInitialProps in app" />
     <MESSAGE value="Create Items component" />
@@ -688,7 +734,9 @@
     <MESSAGE value="Add price to ITEM_QUERY&#10;&#10;Update UpdateItem component" />
     <MESSAGE value="Add DeleteItem" />
     <MESSAGE value="Use DeleteItem component in Item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use DeleteItem component in Item" />
+    <MESSAGE value="Add deleteItem mutator" />
+    <MESSAGE value="Add DELETE_ITEM_MUTATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DELETE_ITEM_MUTATION" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/node_modules/@types/react/index.d.ts">
@@ -967,20 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/datamodel.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1022,41 +1056,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/DeleteItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="330">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
             <element signature="e#48#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="738">
+          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+    <entry file="file://$PROJECT_DIR$/backend/datamodel.graphql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+        <state relative-caret-position="180">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/DeleteItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
