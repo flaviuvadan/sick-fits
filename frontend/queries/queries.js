@@ -65,6 +65,7 @@ export const ITEM_QUERY = gql`
             title
             description
             price
+            largeImage
         }
     }
 `;

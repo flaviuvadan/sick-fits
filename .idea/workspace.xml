@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/frontend/components/Header.js" description="export default Header;" line="73" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Use SingleItem component in Item">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/SingleItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/SingleItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/queries/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/queries/queries.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +20,11 @@
     <session id="1866845337">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,7 +33,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="11" />
           <entry key="graphqls" value="4" />
-          <entry key="js" value="90" />
+          <entry key="js" value="97" />
           <entry key="json" value="3" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
@@ -50,7 +48,7 @@
           <entry key="GraphQL" value="9" />
           <entry key="GraphQL Schema" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="90" />
+          <entry key="JavaScript" value="97" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="1" />
@@ -64,21 +62,21 @@
           <entry key="env" value="60" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="882" />
-          <entry key="js" value="21001" />
+          <entry key="js" value="22076" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="1932" />
+          <entry key="txt" value="1965" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="GraphQL" value="732" />
+          <entry key="GraphQL" value="733" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="20933" />
+          <entry key="JavaScript" value="22007" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="2436" />
+          <entry key="PLAIN_TEXT" value="2469" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -112,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/pages/item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="75">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -124,11 +122,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/components/SingleItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="405">
+              <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/components/ErrorMessage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -161,6 +183,10 @@
       <find>CREATE_ITEM_MUTATION</find>
       <find>item</find>
       <find>type Items</find>
+      <find>components/ErrorMessage</find>
+      <find>return &lt;DisplayError</find>
+      <find>'../components/ErrorMessage'</find>
+      <find>Error!</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -208,10 +234,10 @@
         <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
         <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
         <option value="$PROJECT_DIR$/frontend/components/Item.js" />
-        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/frontend/components/DeleteItem.js" />
-        <option value="$PROJECT_DIR$/frontend/components/SingleItem.js" />
+        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/frontend/pages/item.js" />
+        <option value="$PROJECT_DIR$/frontend/components/SingleItem.js" />
       </list>
     </option>
   </component>
@@ -231,7 +257,7 @@
       <path value="$PROJECT_DIR$/frontend/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="970" />
     <option name="width" value="950" />
     <option name="height" value="1200" />
@@ -305,14 +331,8 @@
       <updated>1539557864063</updated>
       <workItem from="1539557866552" duration="11726000" />
       <workItem from="1540145753631" duration="9761000" />
-      <workItem from="1541976731772" duration="19299000" />
-    </task>
-    <task id="LOCAL-00001" summary="Add a simple example of routing between index(home) and sell pages">
-      <created>1539560272524</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1539560272524</updated>
+      <workItem from="1541976731772" duration="20251000" />
+      <workItem from="1542497283484" duration="427000" />
     </task>
     <task id="LOCAL-00002" summary="Added an example of a constant header for the web app">
       <created>1539651263306</created>
@@ -650,20 +670,26 @@
       <option name="project" value="LOCAL" />
       <updated>1542496218622</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Use SingleItem component in Item">
+      <created>1542496313941</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1542496313943</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40786000" />
+    <option name="totallyTimeSpent" value="42165000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="950" y="0" width="970" height="1200" extended-state="6" />
+    <frame x="970" y="0" width="950" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49734512" visible="true" weight="0.2739726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49734512" visible="true" weight="0.26480085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50265485" side_tool="true" weight="0.2739726" />
-      <window_info anchor="bottom" id="GraphQL" weight="0.32920355" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -677,6 +703,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32920355" />
+      <window_info anchor="bottom" id="GraphQL" order="13" weight="0.32920355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -709,7 +736,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create Item component and use in Items" />
     <MESSAGE value="Implement CreateItem mutation" />
     <MESSAGE value="Add CreateItem component" />
     <MESSAGE value="Use CreateItem component on sell page" />
@@ -734,7 +760,8 @@
     <MESSAGE value="Add cache update" />
     <MESSAGE value="Start building item page" />
     <MESSAGE value="Add SingleItem component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SingleItem component" />
+    <MESSAGE value="Use SingleItem component in Item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use SingleItem component in Item" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/components/styles/CloseButton.js">
@@ -835,10 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#47#87#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,9 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,9 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,19 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pages/_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,16 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/ErrorMessage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/graphql.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -986,34 +980,10 @@
     <entry file="file://$PROJECT_DIR$/backend/.graphqlconfig.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pages/items.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pages/update.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,9 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,9 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,16 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="e#48#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1075,20 +1029,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+    <entry file="file://$PROJECT_DIR$/frontend/pages/_app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state>
+          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/pages/update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/pages/items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1099,19 +1078,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/SingleItem.js">
+    <entry file="file://$PROJECT_DIR$/frontend/pages/item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state relative-caret-position="75">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pages/item.js">
+    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/ErrorMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/SingleItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
