@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Use SingleItem component in Item">
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/components/Pagination.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/SingleItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/SingleItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/queries/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/queries/queries.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +31,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="11" />
           <entry key="graphqls" value="4" />
-          <entry key="js" value="97" />
+          <entry key="js" value="98" />
           <entry key="json" value="3" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
@@ -48,7 +46,7 @@
           <entry key="GraphQL" value="9" />
           <entry key="GraphQL Schema" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="97" />
+          <entry key="JavaScript" value="98" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="1" />
@@ -62,11 +60,11 @@
           <entry key="env" value="60" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="882" />
-          <entry key="js" value="22076" />
+          <entry key="js" value="22610" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="1965" />
+          <entry key="txt" value="2191" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -74,9 +72,9 @@
         <counts>
           <entry key="GraphQL" value="733" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="22007" />
+          <entry key="JavaScript" value="22541" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="2469" />
+          <entry key="PLAIN_TEXT" value="2695" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -122,13 +120,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/components/SingleItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+            <state relative-caret-position="780">
+              <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Pagination.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -238,6 +248,7 @@
         <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/frontend/pages/item.js" />
         <option value="$PROJECT_DIR$/frontend/components/SingleItem.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Pagination.js" />
       </list>
     </option>
   </component>
@@ -332,21 +343,7 @@
       <workItem from="1539557866552" duration="11726000" />
       <workItem from="1540145753631" duration="9761000" />
       <workItem from="1541976731772" duration="20251000" />
-      <workItem from="1542497283484" duration="427000" />
-    </task>
-    <task id="LOCAL-00002" summary="Added an example of a constant header for the web app">
-      <created>1539651263306</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1539651263306</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Implement simple Page component">
-      <created>1539651601714</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1539651601714</updated>
+      <workItem from="1542497283484" duration="1564000" />
     </task>
     <task id="LOCAL-00004" summary="Add simple Header component">
       <created>1539651854084</created>
@@ -677,19 +674,33 @@
       <option name="project" value="LOCAL" />
       <updated>1542496313943</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Add largeImage as return value to ITEM_QUERY&#10;&#10;Use ITEM_QUERY in SingleItem component and add props to item page">
+      <created>1542497790503</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1542497790503</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Include image of item in SingleItem display and add side-effect of title display in tab title">
+      <created>1542498156006</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1542498156007</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42165000" />
+    <option name="totallyTimeSpent" value="43302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="970" y="0" width="950" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49734512" visible="true" weight="0.26480085" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49646017" visible="true" weight="0.26372445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50265485" side_tool="true" weight="0.2739726" />
+      <window_info id="Favorites" order="2" sideWeight="0.5035398" side_tool="true" weight="0.26372445" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -736,8 +747,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement CreateItem mutation" />
-    <MESSAGE value="Add CreateItem component" />
     <MESSAGE value="Use CreateItem component on sell page" />
     <MESSAGE value="Add uploadFile method and add HTML definition" />
     <MESSAGE value="Add image preview on upload" />
@@ -761,12 +770,11 @@
     <MESSAGE value="Start building item page" />
     <MESSAGE value="Add SingleItem component" />
     <MESSAGE value="Use SingleItem component in Item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use SingleItem component in Item" />
+    <MESSAGE value="Add largeImage as return value to ITEM_QUERY&#10;&#10;Use ITEM_QUERY in SingleItem component and add props to item page" />
+    <MESSAGE value="Include image of item in SingleItem display and add side-effect of title display in tab title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Include image of item in SingleItem display and add side-effect of title display in tab title" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/components/styles/CloseButton.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/styles/DropDown.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1107,10 +1115,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/SingleItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+        <state relative-caret-position="780">
+          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
