@@ -14,7 +14,7 @@ export default class Pagination extends Component {
 						if (loading) return <p>Loading...</p>;
 						const count = data.itemsConnection.aggregate.count;
 						const pages = Math.ceil(count / perPage);
-						return <p>Page 1 of {pages}</p>
+						return <p>Page {this.props.page} of {pages}</p>
 					}}
 				</Query>
 			</PaginationStyles>
