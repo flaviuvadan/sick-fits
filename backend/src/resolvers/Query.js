@@ -4,6 +4,7 @@ const Query = {
     // forwardto('db') for items is the same as implementing as the items() resolver
     items: forwardTo('db'),
 	item: forwardTo('db'),
+	itemsConnection: forwardTo('db'),
     // /**
     //  * Get items
     //  * @param parent -
