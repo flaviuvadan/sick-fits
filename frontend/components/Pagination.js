@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PaginationStyles from './styles/PaginationStyles';
 
-const Pagination = props => {
-	<PaginationStyles>
-		<p>Hi!</p>
-	</PaginationStyles>
-};
-
-export default Pagination;
+export default class Pagination extends Component {
+	render() {
+		return (
+			<PaginationStyles>
+				<p>Hi, pagination!</p>
+			</PaginationStyles>
+		)
+	}
+}

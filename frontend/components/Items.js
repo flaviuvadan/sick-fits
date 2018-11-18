@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Query } from 'react-apollo';
 
 import Item from './Item';
+import Pagination from './Pagination';
 import { ALL_ITEMS_QUERY } from '../queries/queries';
 
 // this would be much nicer with css/scss
@@ -22,8 +23,8 @@ const ItemsList = styled.div`
 export default class Items extends Component {
 	render() {
 		return (
-			<div>
-				<p>Items</p>
+			<Center>
+				<Pagination/>
 				<Query query={ALL_ITEMS_QUERY}>
 					{({ data, error, loading }) => {
 						if (loading) return (<p>Loading...</p>);
@@ -35,7 +36,8 @@ export default class Items extends Component {
 						)
 					}}
 				</Query>
-			</div>
+				<Pagination/>
+			</Center>
 		)
 	}
 }
