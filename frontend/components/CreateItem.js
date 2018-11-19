@@ -47,7 +47,11 @@ class CreateItem extends Component {
 
 	render() {
 		return (
-			<Mutation mutation={CREATE_ITEM_MUTATION} variables={this.state}>
+			<Mutation mutation={CREATE_ITEM_MUTATION}
+					  // refetchQueries can be used to refetch a set of queries based on CREATE_ITEM_MUTATION execution
+				      // has the potential to refetch hundreds of pages if there are that many in cache
+					  // refetchQueries={}
+					  variables={this.state}>
 				{(createItem, { error, loading }) => (
 					<Form onSubmit={async e => {
 						// prevent default behaviour of placing string as query params

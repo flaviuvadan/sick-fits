@@ -5,6 +5,7 @@ import { Query } from 'react-apollo';
 import Item from './Item';
 import Pagination from './Pagination';
 import { ALL_ITEMS_QUERY } from '../queries/queries';
+import { perPage } from "../config";
 
 // this would be much nicer with css/scss
 // could package Center into its own component, similar to how Angular does it
@@ -25,7 +26,12 @@ export default class Items extends Component {
 		return (
 			<Center>
 				<Pagination page={this.props.page}/>
-				<Query query={ALL_ITEMS_QUERY}>
+				<Query query={ALL_ITEMS_QUERY}
+					   // setting fetchPolicy to network-only causes it to refetch data with every single next/prev
+					   fetchPolicy="network-only"
+					   variables={{
+						   skip: this.props.page * perPage - perPage,
+					   }}>
 					{({ data, error, loading }) => {
 						if (loading) return (<p>Loading...</p>);
 						if (error) return (<p>Error: {error.message}</p>);
