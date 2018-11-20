@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Implement signup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.js" afterDir="false" />
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/pages/signup.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +32,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="18" />
           <entry key="graphqls" value="4" />
-          <entry key="js" value="119" />
+          <entry key="js" value="121" />
           <entry key="json" value="3" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
@@ -50,7 +48,7 @@
           <entry key="GraphQL" value="16" />
           <entry key="GraphQL Schema" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="119" />
+          <entry key="JavaScript" value="121" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="1" />
@@ -64,11 +62,11 @@
           <entry key="env" value="60" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="1266" />
-          <entry key="js" value="26808" />
+          <entry key="js" value="26907" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="2603" />
+          <entry key="txt" value="2638" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -76,9 +74,9 @@
         <counts>
           <entry key="GraphQL" value="1124" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="26732" />
+          <entry key="JavaScript" value="26831" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="3107" />
+          <entry key="PLAIN_TEXT" value="3142" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -94,70 +92,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/pages/signup.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+        <entry file="file://$PROJECT_DIR$/frontend/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/variables.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/generated/prisma.graphql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="472" column="19" lean-forward="true" selection-start-line="472" selection-start-column="19" selection-end-line="472" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="15">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/node_modules/bcryptjs/externs/minimal-env.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/src/db.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -256,6 +206,7 @@
         <option value="$PROJECT_DIR$/backend/src/db.js" />
         <option value="$PROJECT_DIR$/backend/variables.env" />
         <option value="$PROJECT_DIR$/backend/src/index.js" />
+        <option value="$PROJECT_DIR$/frontend/pages/signup.js" />
       </list>
     </option>
   </component>
@@ -292,24 +243,6 @@
             <path>
               <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
               <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
@@ -370,14 +303,7 @@
       <workItem from="1541976731772" duration="20251000" />
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
-      <workItem from="1542676023561" duration="1061000" />
-    </task>
-    <task id="LOCAL-00018" summary="Add example query and mutation for dog creation and query">
-      <created>1541976542186</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1541976542186</updated>
+      <workItem from="1542676023561" duration="1416000" />
     </task>
     <task id="LOCAL-00019" summary="Update data model">
       <created>1541977067659</created>
@@ -715,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542676625355</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Fix imports affecting server start">
+      <created>1542677103824</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1542677103824</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50635000" />
+    <option name="totallyTimeSpent" value="50990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="970" y="0" width="950" height="1200" extended-state="0" />
@@ -735,7 +668,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32920355" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32920355" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
@@ -784,7 +717,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Use DeleteItem component in Item" />
     <MESSAGE value="Add deleteItem mutator" />
     <MESSAGE value="Add DELETE_ITEM_MUTATION" />
     <MESSAGE value="Add mutator in DeleteItem&#10;&#10;Delete .vscode, no need for it, using WebStorm" />
@@ -809,16 +741,10 @@
     <MESSAGE value="Extend datamodel and regen schema" />
     <MESSAGE value="Add cookie middleware" />
     <MESSAGE value="Implement signup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement signup" />
+    <MESSAGE value="Fix imports affecting server start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix imports affecting server start" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/@types/next/head.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/.next/static/webpack/static/development/pages/_app.js.bec48fb7847cc3389157.hot-update.js" />
     <entry file="file://$PROJECT_DIR$/frontend/node_modules/nprogress/nprogress.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1061,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1117,31 +1036,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+    <entry file="file://$PROJECT_DIR$/backend/src/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/generated/prisma.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="472" column="19" lean-forward="true" selection-start-line="472" selection-start-column="19" selection-end-line="472" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/variables.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1155,13 +1056,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/db.js">
+    <entry file="file://$PROJECT_DIR$/backend/src/generated/prisma.graphql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="502">
+          <caret line="479" column="20" lean-forward="true" selection-start-line="479" selection-start-column="20" selection-end-line="479" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/variables.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/pages/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
