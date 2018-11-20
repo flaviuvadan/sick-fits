@@ -1,12 +1,14 @@
 // start up the Node server
-const cookieParser = require('cookie-parser');
-const createServer = require('./createServer');
-const db = require('./db');
-
+// do not chance the order of imports, keep appending after 'db'
 require('dotenv').config({
 	path: 'variables.env'
 });
 
+const cookieParser = require('cookie-parser');
+const createServer = require('./createServer');
+const db = require('./db');
+
+// start up the Node server
 const server = createServer();
 
 // middleware - some function that will run in the middle, between a request and a response
