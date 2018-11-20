@@ -1,3 +1,6 @@
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+
 const Mutation = {
 	/**
 	 * Create an item
@@ -46,7 +49,7 @@ const Mutation = {
 	 * @param parent
 	 * @param args - arguments of deleteItem
 	 * @param ctx - context of request
-	 * @param info - additiona info
+	 * @param info - additional info
 	 * @returns {Promise<*>}
 	 */
 	async deleteItem(parent, args, ctx, info) {
@@ -63,6 +66,53 @@ const Mutation = {
 				where
 			},
 			info);
+	},
+
+	/**
+	 * USer signup process
+	 * @param parent
+	 * @param args - arguments of signup
+	 * @param ctx - context of request
+	 * @param info - additional info
+	 * @returns {Promise<void>}
+	 */
+	async signup(parent, args, ctx, info) {
+		// makes generation unique for bcrypt
+		const SALT = 10;
+
+		// get the lower-cased email first
+		args.email = args.email.toLowerCase();
+
+		// one-way hash the password
+		const password = await bcrypt.hash(args.password, SALT);
+
+		// create user in the database
+		// ...args will "explode" args and notice the use of syntactic sugar
+		const user = await ctx.db.mutation.createUser({
+			data: {
+				...args,
+				password,
+				permissions: {
+					set: ['USER']
+				}
+			},
+		}, info);
+
+		// create a JWT for the user
+		const token = jwt.sign({
+			userId: user.id,
+		}, process.env.APP_SECRET);
+
+		// set the JWT as a cookie on the response
+		// httpOnly - makes sure one cannot access the token via JS (through 3rd party extension, rogue Chrome ext, etc)
+		// maxAge - how long the cookie lasts
+		ctx.response.cookie('token', token, {
+			httpOnly: true,
+			maxAge: 1000 * 60 * 60 * 24 * 365 // 1 year cookie
+		});
+
+		// return the user to the browser
+		return user;
 	}
 };
 
