@@ -1,9 +1,10 @@
 import React from 'react';
+import Signup from '../components/Signup';
 
-const Signup = props => (
+const SignupPage = props => (
 	<div>
-		<p>Signup!</p>
+		<Signup/>
 	</div>
 );
 
-export default Signup;
+export default SignupPage;

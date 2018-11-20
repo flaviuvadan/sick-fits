@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/pages/signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/signup.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +34,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="18" />
           <entry key="graphqls" value="4" />
-          <entry key="js" value="121" />
+          <entry key="js" value="127" />
           <entry key="json" value="3" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
@@ -48,7 +50,7 @@
           <entry key="GraphQL" value="16" />
           <entry key="GraphQL Schema" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="121" />
+          <entry key="JavaScript" value="127" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="1" />
@@ -62,11 +64,11 @@
           <entry key="env" value="60" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="1266" />
-          <entry key="js" value="26907" />
+          <entry key="js" value="27424" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="2638" />
+          <entry key="txt" value="2675" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -74,9 +76,9 @@
         <counts>
           <entry key="GraphQL" value="1124" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="26831" />
+          <entry key="JavaScript" value="27348" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="3142" />
+          <entry key="PLAIN_TEXT" value="3179" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -95,19 +97,43 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/pages/signup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/pages/index.js">
+        <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="45">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Signup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Pagination.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,9 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Hey!</find>
-      <find>&lt;p&gt;</find>
-      <find>index.js</find>
       <find>&lt;br&gt;&lt;/br</find>
       <find>skew</find>
       <find>subscriptionServerOptions</find>
@@ -154,6 +177,9 @@
       <find>UserCreateInput</find>
       <find>db</find>
       <find>PRISMA_ENDPOINT</find>
+      <find>/signup</find>
+      <find>import Form from 'styled-components';</find>
+      <find>import Form</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -183,7 +209,6 @@
         <option value="$PROJECT_DIR$/backend/src/resolvers/newType.MD" />
         <option value="$PROJECT_DIR$/frontend/lib/withData.js" />
         <option value="$PROJECT_DIR$/frontend/pages/_app.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Nav.js" />
         <option value="$PROJECT_DIR$/frontend/components/Page.js" />
         <option value="$PROJECT_DIR$/frontend/components/styles/ItemStyles.js" />
         <option value="$PROJECT_DIR$/frontend/pages/sell.js" />
@@ -206,7 +231,10 @@
         <option value="$PROJECT_DIR$/backend/src/db.js" />
         <option value="$PROJECT_DIR$/backend/variables.env" />
         <option value="$PROJECT_DIR$/backend/src/index.js" />
+        <option value="$PROJECT_DIR$/frontend/pages/signupPage.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Nav.js" />
         <option value="$PROJECT_DIR$/frontend/pages/signup.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Signup.js" />
       </list>
     </option>
   </component>
@@ -303,14 +331,7 @@
       <workItem from="1541976731772" duration="20251000" />
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
-      <workItem from="1542676023561" duration="1416000" />
-    </task>
-    <task id="LOCAL-00019" summary="Update data model">
-      <created>1541977067659</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1541977067659</updated>
+      <workItem from="1542676023561" duration="2806000" />
     </task>
     <task id="LOCAL-00020" summary="Implement items() and createItem()">
       <created>1541978678570</created>
@@ -648,19 +669,26 @@
       <option name="project" value="LOCAL" />
       <updated>1542677103824</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Create new signup component and page">
+      <created>1542677491192</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1542677491192</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50990000" />
+    <option name="totallyTimeSpent" value="52380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="970" y="0" width="950" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49646017" visible="true" weight="0.2378902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.2378902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5035398" side_tool="true" weight="0.26372445" />
+      <window_info id="Favorites" order="2" sideWeight="0.50442475" side_tool="true" weight="0.2378902" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -717,7 +745,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add deleteItem mutator" />
     <MESSAGE value="Add DELETE_ITEM_MUTATION" />
     <MESSAGE value="Add mutator in DeleteItem&#10;&#10;Delete .vscode, no need for it, using WebStorm" />
     <MESSAGE value="Add cache update" />
@@ -742,10 +769,10 @@
     <MESSAGE value="Add cookie middleware" />
     <MESSAGE value="Implement signup" />
     <MESSAGE value="Fix imports affecting server start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix imports affecting server start" />
+    <MESSAGE value="Create new signup component and page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new signup component and page" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/.next/static/webpack/static/development/pages/_app.js.bec48fb7847cc3389157.hot-update.js" />
     <entry file="file://$PROJECT_DIR$/frontend/node_modules/nprogress/nprogress.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -823,13 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -949,6 +969,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -973,38 +996,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Pagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="51" column="103" selection-start-line="51" selection-start-column="103" selection-end-line="51" selection-end-column="103" />
         </state>
       </provider>
     </entry>
@@ -1084,6 +1079,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1094,10 +1096,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/pages/signup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
