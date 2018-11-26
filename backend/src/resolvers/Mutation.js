@@ -69,8 +69,8 @@ const Mutation = {
 	},
 
 	/**
-	 * USer signup process
-	 * @param parent
+	 * User sign up process
+ 	 * @param parent
 	 * @param args - arguments of signup
 	 * @param ctx - context of request
 	 * @param info - additional info
@@ -112,6 +112,47 @@ const Mutation = {
 		});
 
 		// return the user to the browser
+		return user;
+	},
+
+	/**
+	 * /user sign in process
+	 * @param parent
+	 * @param args - arguments of signup
+	 * @param ctx - context of request
+	 * @param info - additional info
+	 * @returns {Promise<void>}
+	 */
+	async signin(parent, { email, password }, ctx, info) {
+		// check if there's a user with that email
+		const user = await ctx.db.query.user({
+			where: {
+				email: email
+			}
+		});
+
+		if (!user) {
+			throw new Error(`No user found for email ${email}`);
+		}
+
+		// check if password is correct
+		const valid = await bcrypt.compare(password, user.password);
+
+		if (!valid) {
+			throw new Error('Invalid password');
+		}
+
+		// check jwt
+		const token = jwt.sign({
+			userId: user.id,
+		}, process.env.APP_SECRET);
+
+		// set cookie with token
+		ctx.response.cookie('token', token, {
+			httpOnly: true,
+			maxAge: 1000 * 60 * 60 * 24 * 365 // 1 year cookie
+		});
+		// return user
 		return user;
 	}
 };
