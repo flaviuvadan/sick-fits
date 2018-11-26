@@ -1,6 +1,9 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
+
+const ONE_YEAR = 1000 * 60 * 60 * 24 * 365;
+
 const Mutation = {
 	/**
 	 * Create an item
@@ -98,18 +101,11 @@ const Mutation = {
 			},
 		}, info);
 
-		// create a JWT for the user
-		const token = jwt.sign({
-			userId: user.id,
-		}, process.env.APP_SECRET);
+		// check jwt
+		const token = generateToken(user);
 
-		// set the JWT as a cookie on the response
-		// httpOnly - makes sure one cannot access the token via JS (through 3rd party extension, rogue Chrome ext, etc)
-		// maxAge - how long the cookie lasts
-		ctx.response.cookie('token', token, {
-			httpOnly: true,
-			maxAge: 1000 * 60 * 60 * 24 * 365 // 1 year cookie
-		});
+		// set cookie with token
+		setCookie(token, ctx);
 
 		// return the user to the browser
 		return user;
@@ -143,18 +139,41 @@ const Mutation = {
 		}
 
 		// check jwt
-		const token = jwt.sign({
-			userId: user.id,
-		}, process.env.APP_SECRET);
+		const token = generateToken(user);
 
 		// set cookie with token
-		ctx.response.cookie('token', token, {
-			httpOnly: true,
-			maxAge: 1000 * 60 * 60 * 24 * 365 // 1 year cookie
-		});
+		setCookie(token, ctx);
+
 		// return user
 		return user;
 	}
 };
+
+/**
+ * Generate a token for a user
+ * @param user - User
+ * @returns signed token
+ */
+function generateToken(user) {
+	// create a JWT for the user
+	return jwt.sign({
+		userId: user.id,
+	}, process.env.APP_SECRET);
+}
+
+/**
+ * Sets a cookie with the given JWT token
+ * @param token - signed token (generateToken)
+ * @param ctx - context
+ */
+function setCookie(token, ctx) {
+	// set the JWT as a cookie on the response
+	// httpOnly - makes sure one cannot access the token via JS (through 3rd party extension, rogue Chrome ext, etc)
+	// maxAge - how long the cookie lasts
+	ctx.response.cookie('token', token, {
+		httpOnly: true,
+		maxAge: ONE_YEAR // 1 year cookie
+	});
+}
 
 module.exports = Mutation;

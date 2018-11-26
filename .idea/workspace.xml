@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Implement signup mutation">
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,9 +32,9 @@
           <entry key="MD" value="1" />
           <entry key="env" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="graphql" value="18" />
+          <entry key="graphql" value="19" />
           <entry key="graphqls" value="4" />
-          <entry key="js" value="131" />
+          <entry key="js" value="132" />
           <entry key="json" value="3" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
@@ -46,10 +47,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="GraphQL" value="16" />
+          <entry key="GraphQL" value="17" />
           <entry key="GraphQL Schema" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="131" />
+          <entry key="JavaScript" value="132" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
@@ -62,22 +63,22 @@
           <entry key="MD" value="735" />
           <entry key="env" value="60" />
           <entry key="gitignore" value="15" />
-          <entry key="graphql" value="1266" />
-          <entry key="js" value="28808" />
+          <entry key="graphql" value="1314" />
+          <entry key="js" value="29707" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="2783" />
+          <entry key="txt" value="2871" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="GraphQL" value="1133" />
+          <entry key="GraphQL" value="1181" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="28723" />
+          <entry key="JavaScript" value="29622" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="3287" />
+          <entry key="PLAIN_TEXT" value="3375" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -102,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/components/Signup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="135">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -114,11 +115,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="581" column="16" selection-start-line="581" selection-start-column="16" selection-end-line="581" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="583">
+              <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -218,8 +228,6 @@
         <option value="$PROJECT_DIR$/frontend/components/CreateItem.js" />
         <option value="$PROJECT_DIR$/frontend/components/Items.js" />
         <option value="$PROJECT_DIR$/backend/datamodel.graphql" />
-        <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
-        <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
         <option value="$PROJECT_DIR$/backend/src/db.js" />
         <option value="$PROJECT_DIR$/backend/variables.env" />
         <option value="$PROJECT_DIR$/backend/src/index.js" />
@@ -228,6 +236,8 @@
         <option value="$PROJECT_DIR$/frontend/pages/signup.js" />
         <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/frontend/components/Signup.js" />
+        <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
+        <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
       </list>
     </option>
   </component>
@@ -330,21 +340,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="4531000" />
-    </task>
-    <task id="LOCAL-00024" summary="Create Items component and queries package">
-      <created>1541985589576</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1541985589576</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Create Item component and use in Items">
-      <created>1542068547433</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1542068547433</updated>
+      <workItem from="1542679218152" duration="5371000" />
     </task>
     <task id="LOCAL-00026" summary="Implement CreateItem mutation">
       <created>1542248640275</created>
@@ -675,17 +671,31 @@
       <option name="project" value="LOCAL" />
       <updated>1543192299903</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Add signup mutation to render">
+      <created>1543195078119</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1543195078119</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Add signin mutation and implement it">
+      <created>1543195604285</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1543195604285</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57242000" />
+    <option name="totallyTimeSpent" value="58082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.1348078" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.1348078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50442475" side_tool="true" weight="0.2378902" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -700,7 +710,7 @@
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32920355" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32871288" />
       <window_info anchor="bottom" id="GraphQL" order="13" weight="0.3029703" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -744,8 +754,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add SingleItem component" />
-    <MESSAGE value="Use SingleItem component in Item" />
     <MESSAGE value="Add largeImage as return value to ITEM_QUERY&#10;&#10;Use ITEM_QUERY in SingleItem component and add props to item page" />
     <MESSAGE value="Include image of item in SingleItem display and add side-effect of title display in tab title" />
     <MESSAGE value="Add Pagination component" />
@@ -769,7 +777,9 @@
     <MESSAGE value="Start adding signup forms" />
     <MESSAGE value="Implement saveToState" />
     <MESSAGE value="Implement signup mutation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement signup mutation" />
+    <MESSAGE value="Add signup mutation to render" />
+    <MESSAGE value="Add signin mutation and implement it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add signin mutation and implement it" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/node_modules/nprogress/nprogress.js">
@@ -1037,20 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1124,13 +1120,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="158" column="21" lean-forward="true" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Signup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
         </state>
       </provider>
     </entry>
