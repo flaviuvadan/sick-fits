@@ -11,8 +11,12 @@ class Signup extends Component {
 		password: ''
 	};
 
-	saveToState = () => {
-		console.log('saveToState');
+	/**
+	 * Saves values to state
+	 * @param e - event
+	 */
+	saveToState = (e) => {
+		this.setState({ [e.target.name]: e.target.value });
 	};
 
 	render() {
