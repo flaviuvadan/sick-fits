@@ -2,6 +2,8 @@ import Link from 'next/link'
 import NavStyles from './styles/NavStyles';
 
 import User from './User';
+import Signout from './Signout';
+
 
 // note, a stateless functional component
 // doing double destructuring when we receive the payload from User
@@ -30,6 +32,9 @@ const Nav = () => (
         <Link href="/account">
             <a>Account</a>
         </Link>
+		<Signout>
+
+		</Signout>
     </NavStyles>
 );
 
