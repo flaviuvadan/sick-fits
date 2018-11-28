@@ -146,6 +146,22 @@ const Mutation = {
 
 		// return user
 		return user;
+	},
+
+	/**
+	 * /user sign out process
+	 * @param parent
+	 * @param args - arguments of signup
+	 * @param ctx - context of request
+	 * @param info - additional info
+	 * @returns {Promise<void>}
+	 */
+	async signout(parent, args, ctx, info) {
+		// clear the cookie that stores the JWT
+		ctx.reponse.clearCookie('token');
+		return {
+			message: '200',
+		}
 	}
 };
 
