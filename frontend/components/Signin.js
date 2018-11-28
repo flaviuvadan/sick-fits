@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Mutation } from 'react-apollo';
 import Form from './styles/Form';
 import Error from './ErrorMessage';
-import { SIGNIN_MUTATION } from "../queries/queries";
+import { CURRENT_USER_QUERY, SIGNIN_MUTATION } from "../queries/queries";
 
 class Signin extends Component {
 	state = {
@@ -20,14 +20,15 @@ class Signin extends Component {
 
 	render() {
 		return (
-			<Mutation mutation={SIGNIN_MUTATION} variables={this.state}>
+			<Mutation mutation={SIGNIN_MUTATION} variables={this.state} refetchQueries={[{
+				query: CURRENT_USER_QUERY
+			}]}>
 				{(signin, { error, loading }) => {
 					return (
-
 						<Form method="post" onSubmit={async e => {
 							e.preventDefault();
 							await signin();
-							this.setState({ email: '', password: ''});
+							this.setState({ email: '', password: '' });
 						}}>
 							<fieldset disabled={loading} aria-busy={loading}>
 								<h2>Sign Into Your Account</h2>

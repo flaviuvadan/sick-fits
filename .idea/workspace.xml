@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Add signout component to Nav and adjust button style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Signin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Signout.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Signout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/queries/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/queries/queries.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +37,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="19" />
           <entry key="graphqls" value="4" />
-          <entry key="js" value="140" />
+          <entry key="js" value="145" />
           <entry key="json" value="3" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
@@ -50,7 +53,7 @@
           <entry key="GraphQL" value="17" />
           <entry key="GraphQL Schema" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="140" />
+          <entry key="JavaScript" value="145" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
@@ -64,11 +67,11 @@
           <entry key="env" value="60" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="1398" />
-          <entry key="js" value="31542" />
+          <entry key="js" value="32420" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="3229" />
+          <entry key="txt" value="3309" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -76,9 +79,9 @@
         <counts>
           <entry key="GraphQL" value="1269" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="31453" />
+          <entry key="JavaScript" value="32331" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="3733" />
+          <entry key="PLAIN_TEXT" value="3813" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -98,16 +101,37 @@
         <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="160" column="42" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Signout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Signin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="162" column="27" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
+            <state relative-caret-position="20">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -127,11 +151,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/components/Nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/components/styles/NavStyles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -148,8 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="137" column="31" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="31" />
+            <state relative-caret-position="853">
+              <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -165,8 +198,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>skew</find>
-      <find>subscriptionServerOptions</find>
       <find>Item</find>
       <find>Mutation</find>
       <find>createItem</find>
@@ -195,6 +226,8 @@
       <find>import Form</find>
       <find>db</find>
       <find>propTypes</find>
+      <find>button</find>
+      <find>&lt;Mutation</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -244,15 +277,17 @@
         <option value="$PROJECT_DIR$/frontend/pages/signupPage.js" />
         <option value="$PROJECT_DIR$/frontend/components/Signup.js" />
         <option value="$PROJECT_DIR$/frontend/pages/signup.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Signin.js" />
         <option value="$PROJECT_DIR$/backend/src/index.js" />
         <option value="$PROJECT_DIR$/backend/src/resolvers/Query.js" />
         <option value="$PROJECT_DIR$/frontend/components/USer.js" />
-        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/frontend/components/User.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Nav.js" />
         <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
+        <option value="$PROJECT_DIR$/frontend/components/styles/NavStyles.js" />
+        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Signout.js" />
         <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Nav.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Signin.js" />
       </list>
     </option>
   </component>
@@ -311,6 +346,13 @@
               <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
               <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -356,21 +398,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="8078000" />
-    </task>
-    <task id="LOCAL-00033" summary="Create UpdateItem empty component">
-      <created>1542420087894</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1542420087894</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Make a copy of CreateItem and edit it to use as UpdateItem&#10;&#10;Add UPDATE_ITEM_MUTATION">
-      <created>1542420255349</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1542420255349</updated>
+      <workItem from="1542679218152" duration="9643000" />
     </task>
     <task id="LOCAL-00035" summary="Create update.js">
       <created>1542420281241</created>
@@ -701,17 +729,31 @@
       <option name="project" value="LOCAL" />
       <updated>1543368434906</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Add signout mutation">
+      <created>1543368617046</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1543368617046</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Add signout component to Nav and adjust button style">
+      <created>1543368952075</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1543368952075</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60789000" />
+    <option name="totallyTimeSpent" value="62354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.1348078" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.1348078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50442475" side_tool="true" weight="0.2378902" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -750,9 +792,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pass page query param" />
-    <MESSAGE value="Pass page query param to items" />
-    <MESSAGE value="Use page prop" />
     <MESSAGE value="Refactor Pagination" />
     <MESSAGE value="Add Next button" />
     <MESSAGE value="Adjust ALL_ITEMS_QUERY to take in pagination params" />
@@ -775,27 +814,12 @@
     <MESSAGE value="Add CURRENT_USER_QUERY and start implementing User component" />
     <MESSAGE value="Add User prop component" />
     <MESSAGE value="Add User component to Nav bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add User component to Nav bar" />
+    <MESSAGE value="Add signout mutation" />
+    <MESSAGE value="Add signout component to Nav" />
+    <MESSAGE value="Add signout component to Nav and adjust button style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add signout component to Nav and adjust button style" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/components/styles/NavStyles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql.js" />
-    <entry file="file://$PROJECT_DIR$/backend/node_modules/graphql-yoga/dist/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1026,6 +1050,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,23 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Signin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="31" column="77" lean-forward="true" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="137" column="31" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/UpdateItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1128,27 +1138,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/styles/CloseButton.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/styles/Table.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/styles/NavStyles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="160" column="42" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Signout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Nav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+    <entry file="file://$PROJECT_DIR$/frontend/components/Signin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="162" column="27" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
+        <state relative-caret-position="20">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>

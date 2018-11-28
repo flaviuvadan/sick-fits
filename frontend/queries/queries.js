@@ -145,3 +145,11 @@ export const CURRENT_USER_QUERY = gql`
 		}
 	}
 `;
+
+export const SIGNOUT_MUTATION = gql`
+	mutation SIGNOUT_MUTATION {
+		signout {
+			message
+		}
+	}
+`;

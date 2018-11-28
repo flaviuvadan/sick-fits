@@ -158,7 +158,7 @@ const Mutation = {
 	 */
 	async signout(parent, args, ctx, info) {
 		// clear the cookie that stores the JWT
-		ctx.reponse.clearCookie('token');
+		ctx.response.clearCookie('token');
 		return {
 			message: '200',
 		}

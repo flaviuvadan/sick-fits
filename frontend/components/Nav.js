@@ -8,34 +8,35 @@ import Signout from './Signout';
 // note, a stateless functional component
 // doing double destructuring when we receive the payload from User
 const Nav = () => (
-    <NavStyles>
-		<User>
-			{({ data : { currentUser } }) => {
-				if (currentUser) {
-					return <p>{currentUser.name}</p>
-				}
-				return <p>User</p>
-			}}
-		</User>
-        <Link href="/items">
-            <a>Shop</a>
-        </Link>
-        <Link href="/sell">
-            <a>Sell</a>
-        </Link>
-        <Link href="/signup">
-            <a>Signup</a>
-        </Link>
-        <Link href="/orders">
-            <a>Orders</a>
-        </Link>
-        <Link href="/account">
-            <a>Account</a>
-        </Link>
-		<Signout>
+	<User>
+		{({ data: { currentUser } }) => (
+			<NavStyles>
+				<Link href="/items">
+					<a>Shop</a>
+				</Link>
+				{currentUser && (
+					<>
+						<Link href="/sell">
+							<a>Sell</a>
+						</Link>
+						<Link href="/orders">
+							<a>Orders</a>
+						</Link>
+						<Link href="/account">
+							<a>Account</a>
+						</Link>
+						<Signout/>
+					</>
+				)}
 
-		</Signout>
-    </NavStyles>
+				{!currentUser && (
+					<Link href="/signup">
+						<a>Sign In</a>
+					</Link>
+				)}
+			</NavStyles>
+		)}
+	</User>
 );
 
 export default Nav;
