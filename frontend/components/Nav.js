@@ -1,9 +1,20 @@
 import Link from 'next/link'
 import NavStyles from './styles/NavStyles';
 
+import User from './User';
+
 // note, a stateless functional component
+// doing double destructuring when we receive the payload from User
 const Nav = () => (
     <NavStyles>
+		<User>
+			{({ data : { currentUser } }) => {
+				if (currentUser) {
+					return <p>{currentUser.name}</p>
+				}
+				return <p>User</p>
+			}}
+		</User>
         <Link href="/items">
             <a>Shop</a>
         </Link>
