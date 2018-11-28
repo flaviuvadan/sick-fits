@@ -134,3 +134,14 @@ export const SIGNIN_MUTATION = gql`
         }
     }
 `;
+
+export const CURRENT_USER_QUERY = gql`
+	query CURRENT_USER_QUERY {
+		currentUser {
+			id
+            email
+            name
+            permissions
+		}
+	}
+`;
