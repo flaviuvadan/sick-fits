@@ -228,7 +228,6 @@ const Mutation = {
 				resetTokenExpiry_gte: Date.now() - ONE_HOUR,
 			},
 		});
-		console.log(args.resetToken, Date.now()- ONE_HOUR)
 		if (!user) {
 			throw new Error('Token either invalid or expired');
 		}
