@@ -165,7 +165,9 @@ export const RESET_PASSWORD_MUTATION = gql`
 			confirmPassword: $confirmPassword
 			resetToken: $resetToken
 		) {
-			message
+			id
+			email
+			name
 		}
 	}
 `;
