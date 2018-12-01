@@ -1,8 +1,12 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const { randomBytes } = require('crypto');
+// takes callback-based functions and makes them Promise-based
+const { promisify } = require('util');
 
 
 const ONE_YEAR = 1000 * 60 * 60 * 24 * 365;
+const ONE_HOUR = 3600000;
 
 const Mutation = {
 	/**
@@ -73,7 +77,7 @@ const Mutation = {
 
 	/**
 	 * User sign up process
- 	 * @param parent
+	 * @param parent
 	 * @param args - arguments of signup
 	 * @param ctx - context of request
 	 * @param info - additional info
@@ -149,20 +153,58 @@ const Mutation = {
 	},
 
 	/**
-	 * /user sign out process
+	 * User sign out process
 	 * @param parent
 	 * @param args - arguments of signup
 	 * @param ctx - context of request
 	 * @param info - additional info
 	 * @returns {Promise<void>}
 	 */
-	async signout(parent, args, ctx, info) {
+	signout(parent, args, ctx, info) {
 		// clear the cookie that stores the JWT
 		ctx.response.clearCookie('token');
 		return {
 			message: '200',
 		}
-	}
+	},
+
+	/**
+	 * User password reset
+	 * @param parent
+	 * @param args - arguments of signup
+	 * @param ctx - context of request
+	 * @param info - additional info
+	 * @returns {Promise<void>}
+	 */
+	async requestReset(parent, args, ctx, info) {
+		// check if this is a real user
+		const user = await ctx.db.query.user({
+			where: {
+				email: args.email
+			}
+		});
+		if (!user) {
+			throw new Error(`No user found for email ${args.email}`);
+		}
+		// set a reset token and expiry on that user
+		// randomBytes takes the number of bytes to generate, generates a buffer, then we turn it to hex string
+		const randomBytesPromise = promisify(randomBytes);
+		const resetToken = await randomBytesPromise(20).toString('hex');
+		const resetTokenExpiry = Date.now() + ONE_HOUR;
+		const res = await ctx.db.mutation.updateUser({
+			where: {
+				email: args.email
+			},
+			data: {
+				resetToken: resetToken,
+				resetTokenExpiry: resetTokenExpiry
+			}
+		});
+		return {
+			message: '200'
+		};
+		// email the reset token
+	},
 };
 
 /**
