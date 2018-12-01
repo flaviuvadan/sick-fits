@@ -49,4 +49,4 @@ class RequestReset extends Component {
 	}
 }
 
-export default Signin;
+export default RequestReset;
