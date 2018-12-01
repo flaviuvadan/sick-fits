@@ -160,7 +160,7 @@ export const RESET_PASSWORD_MUTATION = gql`
 		$confirmPassword: String!
 		$resetToken: String! 
     ) {
-		requestReset(
+		resetPassword(
 			password: $password
 			confirmPassword: $confirmPassword
 			resetToken: $resetToken
