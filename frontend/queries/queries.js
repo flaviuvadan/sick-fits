@@ -121,8 +121,8 @@ export const SIGNUP_MUTATION = gql`
 
 export const SIGNIN_MUTATION = gql`
     mutation SIGNIN_MUTATION(
-    $email: String!
-    $password: String!
+		$email: String!
+		$password: String!
     ) {
         signin(
             email: $email
@@ -149,6 +149,22 @@ export const CURRENT_USER_QUERY = gql`
 export const SIGNOUT_MUTATION = gql`
 	mutation SIGNOUT_MUTATION {
 		signout {
+			message
+		}
+	}
+`;
+
+export const REQUEST_RESET_MUTATION = gql`
+	mutation REQUEST_RESET_MUTATION(
+    	$password: String!
+		$confirmPassword: String!
+		$resetToken: String! 
+    ) {
+		requestReset(
+			password: $password
+			confirmPassword: $confirmPassword
+			resetToken: $resetToken
+		) {
 			message
 		}
 	}
