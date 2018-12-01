@@ -171,7 +171,7 @@ const Mutation = {
 	/**
 	 * User password reset
 	 * @param parent
-	 * @param args - arguments of signup
+	 * @param args - arguments of requestReset
 	 * @param ctx - context of request
 	 * @param info - additional info
 	 * @returns {Promise<void>}
@@ -189,7 +189,7 @@ const Mutation = {
 		// set a reset token and expiry on that user
 		// randomBytes takes the number of bytes to generate, generates a buffer, then we turn it to hex string
 		const randomBytesPromise = promisify(randomBytes);
-		const resetToken = await randomBytesPromise(20).toString('hex');
+		const resetToken = (await randomBytesPromise(20)).toString('hex');
 		const resetTokenExpiry = Date.now() + ONE_HOUR;
 		const res = await ctx.db.mutation.updateUser({
 			where: {
@@ -204,6 +204,53 @@ const Mutation = {
 			message: '200'
 		};
 		// email the reset token
+	},
+
+	/**
+	 * Reset password
+	 * @param parent
+	 * @param args - arguments of resetPassword
+	 * @param ctx - context of request
+	 * @param info - additional info
+	 * @returns {Promise<void>}
+	 */
+	async resetPassword(parent, args, ctx, info) {
+		// check whether passwords match
+		if (args.password !== args.confirmPassword) {
+			throw new Error('Passwords do not match!');
+		}
+		// check if token is legit
+
+		// check token expiry
+		const [user] = await ctx.db.query.users({
+			where: {
+				resetToken: args.resetToken,
+				resetTokenExpiry_gte: Date.now() - ONE_HOUR,
+			},
+		});
+		console.log(args.resetToken, Date.now()- ONE_HOUR)
+		if (!user) {
+			throw new Error('Token either invalid or expired');
+		}
+		// hash password
+		const password = await bcrypt.hash(args.password, 10);
+		// save password and remove resetToken and tokenExpiry
+		const updatedUser = await ctx.db.mutation.updateUser({
+			where: {
+				email: user.email
+			},
+			data: {
+				password: password,
+				resetToken: null,
+				resetTokenExpiry: null
+			}
+		});
+		// generate JWT
+		const token = generateToken(updatedUser);
+		// set JWT
+		setCookie(token, ctx);
+		// return user
+		return updatedUser;
 	},
 };
 
@@ -230,7 +277,7 @@ function setCookie(token, ctx) {
 	// maxAge - how long the cookie lasts
 	ctx.response.cookie('token', token, {
 		httpOnly: true,
-		maxAge: ONE_YEAR // 1 year cookie
+		maxAge: ONE_YEAR
 	});
 }
 
