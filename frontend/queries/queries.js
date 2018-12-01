@@ -154,8 +154,8 @@ export const SIGNOUT_MUTATION = gql`
 	}
 `;
 
-export const REQUEST_RESET_MUTATION = gql`
-	mutation REQUEST_RESET_MUTATION(
+export const RESET_PASSWORD_MUTATION = gql`
+	mutation RESET_PASSWORD_MUTATION(
     	$password: String!
 		$confirmPassword: String!
 		$resetToken: String! 
@@ -164,6 +164,18 @@ export const REQUEST_RESET_MUTATION = gql`
 			password: $password
 			confirmPassword: $confirmPassword
 			resetToken: $resetToken
+		) {
+			message
+		}
+	}
+`;
+
+export const REQUEST_RESET_MUTATION = gql`
+	mutation REQUEST_RESET_MUTATION(
+		$email: String!
+	) {
+        requestReset(
+			email: $email
 		) {
 			message
 		}
