@@ -3,7 +3,7 @@ import { Mutation } from 'react-apollo';
 import PropTypes from 'prop-types';
 import Form from './styles/Form';
 import Error from './ErrorMessage';
-import { RESET_PASSWORD_MUTATION } from "../queries/queries";
+import { RESET_PASSWORD_MUTATION, CURRENT_USER_QUERY } from "../queries/queries";
 
 class Reset extends Component {
 	// require a particular prop type
@@ -29,7 +29,10 @@ class Reset extends Component {
 				password: this.state.password,
 				confirmPassword: this.state.confirmPassword,
 				resetToken: this.props.resetToken,
-			}}>
+			}}
+					  refetchQueries={[{
+						  query: CURRENT_USER_QUERY
+					  }]}>
 				{(reset, { error, loading, called }) => {
 					return (
 						<Form method="post" onSubmit={async e => {
