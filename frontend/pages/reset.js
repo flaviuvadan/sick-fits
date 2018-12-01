@@ -1,9 +1,10 @@
 import React from 'react';
+import Reset from '../components/Reset';
 
-const Reset = props => (
+const ResetPage = props => (
 	<div>
-		<p>Reset your password {props.query.resetToken}</p>
+		<Reset resetToken={props.query.resetToken}/>
 	</div>
 );
 
-export default Reset;
+export default ResetPage;
