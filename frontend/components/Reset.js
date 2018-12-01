@@ -6,6 +6,7 @@ import Error from './ErrorMessage';
 import { RESET_PASSWORD_MUTATION } from "../queries/queries";
 
 class Reset extends Component {
+	// require a particular prop type
 	static propTypes = {
 		resetToken: PropTypes.string.isRequired,
 	};
@@ -33,17 +34,17 @@ class Reset extends Component {
 					return (
 						<Form method="post" onSubmit={async e => {
 							e.preventDefault();
-							const success = await reset();
-
+							await reset();
 							this.setState({ password: '', confirmPassword: '' });
 						}}>
 							<fieldset disabled={loading} aria-busy={loading}>
 								<h2>Reset your password</h2>
+
 								<Error error={error}/>
 
 								<label htmlFor="password">
 									Password
-									<input type="text"
+									<input type="password"
 										   name="password"
 										   placeholder="password"
 										   value={this.state.password}
@@ -52,7 +53,7 @@ class Reset extends Component {
 
 								<label htmlFor="confirmPassword">
 									Password
-									<input type="text"
+									<input type="password"
 										   name="confirmPassword"
 										   placeholder="confirmPassword"
 										   value={this.state.confirmPassword}
