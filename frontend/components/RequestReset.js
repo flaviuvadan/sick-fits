@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Mutation } from 'react-apollo';
 import Form from './styles/Form';
 import Error from './ErrorMessage';
-import { RESET_PASSWORD_MUTATION } from "../queries/queries";
+import { REQUEST_RESET_MUTATION } from "../queries/queries";
 
 class RequestReset extends Component {
 	state = {
@@ -19,17 +19,19 @@ class RequestReset extends Component {
 
 	render() {
 		return (
-			<Mutation mutation={RESET_PASSWORD_MUTATION} variables={this.state}>
-				{(reset, { error, loading }) => {
+			<Mutation mutation={REQUEST_RESET_MUTATION} variables={this.state}>
+				{(reset, { error, loading, called }) => {
 					return (
 						<Form method="post" onSubmit={async e => {
 							e.preventDefault();
-							await reset();
+							const success = await reset();
+
 							this.setState({ email: '' });
 						}}>
 							<fieldset disabled={loading} aria-busy={loading}>
 								<h2>Reset your password</h2>
 								<Error error={error}/>
+								{!error && !loading && called && <p>Check your email for a reset link</p>}
 								<label htmlFor="email">
 									Email
 									<input type="text"
