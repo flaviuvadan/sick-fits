@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 const { randomBytes } = require('crypto');
 // takes callback-based functions and makes them Promise-based
 const { promisify } = require('util');
+const { transport, makeEmail } = require('../mail');
 
 
 const ONE_YEAR = 1000 * 60 * 60 * 24 * 365;
@@ -200,10 +201,22 @@ const Mutation = {
 				resetTokenExpiry: resetTokenExpiry
 			}
 		});
+
+		// email the reset token
+		const email = `You recently requested a password reset.\n\n
+					   <a href="${process.env.FRONTEND_URL}/reset?resetToken=${resetToken}">
+					   Follow this link to reset your password</a>`;
+		const emailResponse = await transport.sendMail({
+			from: 'reset@sickfits.com',
+			to: user.email,
+			subject: 'Password Reset - Sick Fits',
+			html: makeEmail(email),
+		});
+
+		// return message
 		return {
 			message: '200'
 		};
-		// email the reset token
 	},
 
 	/**
