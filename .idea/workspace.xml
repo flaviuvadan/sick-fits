@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/permissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Query.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Permissions.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +34,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="22" />
           <entry key="graphqls" value="5" />
-          <entry key="js" value="178" />
+          <entry key="js" value="179" />
           <entry key="json" value="3" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
@@ -49,7 +50,7 @@
           <entry key="GraphQL" value="20" />
           <entry key="GraphQL Schema" value="5" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="178" />
+          <entry key="JavaScript" value="179" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
@@ -63,23 +64,23 @@
           <entry key="env" value="149" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="1672" />
-          <entry key="js" value="39819" />
+          <entry key="js" value="40043" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="4545" />
+          <entry key="txt" value="4706" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="89" />
-          <entry key="GraphQL" value="1563" />
+          <entry key="GraphQL" value="1567" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="39680" />
+          <entry key="JavaScript" value="39900" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="5049" />
+          <entry key="PLAIN_TEXT" value="5210" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -98,17 +99,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="435">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="583">
+              <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
+        <entry file="file://$PROJECT_DIR$/backend/src/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -122,23 +132,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/components/Permissions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="90">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -158,32 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="853">
+              <caret line="192" column="23" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -282,7 +259,6 @@
         <option value="$PROJECT_DIR$/frontend/components/RequestReset.js" />
         <option value="$PROJECT_DIR$/frontend/components/Nav.js" />
         <option value="$PROJECT_DIR$/frontend/pages/reset.js" />
-        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/frontend/components/Reset.js" />
         <option value="$PROJECT_DIR$/backend/variables.env" />
         <option value="$PROJECT_DIR$/backend/src/mail.js" />
@@ -291,9 +267,10 @@
         <option value="$PROJECT_DIR$/frontend/pages/sell.js" />
         <option value="$PROJECT_DIR$/frontend/components/SignInWarning.js" />
         <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
-        <option value="$PROJECT_DIR$/backend/src/resolvers/Query.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Permissions.js" />
         <option value="$PROJECT_DIR$/frontend/pages/permissions.js" />
+        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Permissions.js" />
+        <option value="$PROJECT_DIR$/backend/src/resolvers/Query.js" />
       </list>
     </option>
   </component>
@@ -402,21 +379,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="20382000" />
-    </task>
-    <task id="LOCAL-00062" summary="Adjust ALL_ITEMS_QUERY to take in pagination params">
-      <created>1542584456303</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1542584456303</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Pass params to ALL_ITEMS_QUERY">
-      <created>1542585622807</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1542585622807</updated>
+      <workItem from="1542679218152" duration="20761000" />
     </task>
     <task id="LOCAL-00064" summary="Extend datamodel and regen schema">
       <created>1542675409052</created>
@@ -747,11 +710,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543756837993</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Use Permission component in permissions page and rename permissions page PermissionsPage to avoid name conflicts">
+      <created>1543756934202</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1543756934202</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Add ALL_USERS_QUERY">
+      <created>1543757033206</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1543757033206</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73093000" />
+    <option name="totallyTimeSpent" value="73472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -796,8 +773,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add resetPassword workflow" />
-    <MESSAGE value="Remove unnecessary console log" />
     <MESSAGE value="Add REQUEST_RESET_MUTATION" />
     <MESSAGE value="Fix mutations; add RESET_PASSWORD_MUTATION and REQUEST_RESET_MUTATION" />
     <MESSAGE value="Add RequestReset component" />
@@ -821,7 +796,9 @@
     <MESSAGE value="Refactor logged in user check into own function" />
     <MESSAGE value="Add basic permissions page" />
     <MESSAGE value="Create Permissions component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Permissions component" />
+    <MESSAGE value="Use Permission component in permissions page and rename permissions page PermissionsPage to avoid name conflicts" />
+    <MESSAGE value="Add ALL_USERS_QUERY" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ALL_USERS_QUERY" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/backend/graphql.md">
@@ -1152,13 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1166,44 +1136,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/SignInWarning.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1217,6 +1149,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Permissions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/pages/permissions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1224,13 +1173,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Permissions.js">
+    <entry file="file://$PROJECT_DIR$/frontend/components/SignInWarning.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="300">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="192" column="23" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
         </state>
       </provider>
     </entry>
