@@ -1,12 +1,14 @@
+import React from "react";
 import SigninWarning from '../components/SignInWarning';
+import Permissions from '../components/Permissions';
 
 
-const Permissions = () => (
+const PermissionsPage = () => (
 	<div>
 		<SigninWarning>
-			<p>Permissions</p>
+			<Permissions/>
 		</SigninWarning>
 	</div>
 );
 
-export default Permissions;
+export default PermissionsPage;
