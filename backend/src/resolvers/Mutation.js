@@ -19,13 +19,23 @@ const Mutation = {
 	 * @returns {Promise<*>}
 	 */
 	async createItem(parent, args, ctx, info) {
-		// TODO: check whether user is logged in
-		// access the database
+		// access check
+		if(!ctx.request.userId) {
+			throw new Error('You must log in first');
+		}
+
 		return await ctx.db.mutation.createItem({
 			data: {
 				...args,
+				// this is how we create a relationship between an item and the user who created it
+				user: {
+					connect: {
+						id: ctx.request.userId,
+					}
+				},
 			}
-		}, info); // passing info makes sure item promise upon creation
+			// passing info makes sure item promise upon creation
+		}, info);
 	},
 
 	/**
