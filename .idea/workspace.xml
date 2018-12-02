@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/SignInWarning.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/SignInWarning.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/sell.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/sell.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +33,8 @@
           <entry key="env" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="22" />
-          <entry key="graphqls" value="4" />
-          <entry key="js" value="170" />
+          <entry key="graphqls" value="5" />
+          <entry key="js" value="174" />
           <entry key="json" value="3" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
@@ -47,9 +48,9 @@
         <counts>
           <entry key=".env file" value="2" />
           <entry key="GraphQL" value="20" />
-          <entry key="GraphQL Schema" value="4" />
+          <entry key="GraphQL Schema" value="5" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="170" />
+          <entry key="JavaScript" value="174" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
@@ -63,11 +64,11 @@
           <entry key="env" value="149" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="1656" />
-          <entry key="js" value="38050" />
+          <entry key="js" value="38536" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="4227" />
+          <entry key="txt" value="4319" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -77,9 +78,9 @@
           <entry key="GraphQL" value="1547" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="37911" />
+          <entry key="JavaScript" value="38397" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="4731" />
+          <entry key="PLAIN_TEXT" value="4823" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -125,11 +126,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="405">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/components/SignInWarning.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,7 +252,6 @@
         <option value="$PROJECT_DIR$/frontend/pages/_app.js" />
         <option value="$PROJECT_DIR$/frontend/components/Page.js" />
         <option value="$PROJECT_DIR$/frontend/components/styles/ItemStyles.js" />
-        <option value="$PROJECT_DIR$/frontend/pages/sell.js" />
         <option value="$PROJECT_DIR$/frontend/pages/update.js" />
         <option value="$PROJECT_DIR$/frontend/components/UpdateItem.js" />
         <option value="$PROJECT_DIR$/frontend/components/Item.js" />
@@ -239,6 +284,8 @@
         <option value="$PROJECT_DIR$/backend/src/mail.js" />
         <option value="$PROJECT_DIR$/backend/datamodel.graphql" />
         <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
+        <option value="$PROJECT_DIR$/frontend/pages/sell.js" />
+        <option value="$PROJECT_DIR$/frontend/components/SignInWarning.js" />
       </list>
     </option>
   </component>
@@ -290,8 +337,17 @@
             <path>
               <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
               <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphQL Schemas" type="390a5855:JSGraphQLSchemaDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,21 +393,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="18041000" />
-    </task>
-    <task id="LOCAL-00055" summary="Add itemsConnection query">
-      <created>1542579737888</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1542579737888</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Add PAGINATION_QUERY">
-      <created>1542580171196</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1542580171196</updated>
+      <workItem from="1542679218152" duration="18658000" />
     </task>
     <task id="LOCAL-00057" summary="Get aggregate count from PAGINATION_QUERY">
       <created>1542580192556</created>
@@ -682,11 +724,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543710320036</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Edit mutator to establish relationship between item and user">
+      <created>1543710576762</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1543710576762</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Add basic SigninWarning component">
+      <created>1543710702804</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1543710702804</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70752000" />
+    <option name="totallyTimeSpent" value="71369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -731,8 +787,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add User prop component" />
-    <MESSAGE value="Add User component to Nav bar" />
     <MESSAGE value="Add signout mutation" />
     <MESSAGE value="Add signout component to Nav" />
     <MESSAGE value="Add signout component to Nav and adjust button style" />
@@ -756,16 +810,11 @@
     <MESSAGE value="Add makeEmail function and transport for SMTP" />
     <MESSAGE value="Fix port (string -&gt; int) and complete password reset flow" />
     <MESSAGE value="Update datamodel and regen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update datamodel and regen" />
+    <MESSAGE value="Edit mutator to establish relationship between item and user" />
+    <MESSAGE value="Add basic SigninWarning component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add basic SigninWarning component" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/components/styles/Title.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/styles/ItemStyles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1078,23 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/RequestReset.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -1102,13 +1134,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1155,8 +1180,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="405">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/SignInWarning.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
