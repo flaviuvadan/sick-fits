@@ -6,8 +6,12 @@ import { ALL_USERS_QUERY } from "../queries/queries";
 const Permissions = props => (
 	<Query query={ALL_USERS_QUERY}>
 		{({ data, loading, error }) => {
-				return <Error error={error}/>
-				return <p>Hey</p>
+			if (error) {
+				return <Error error={error}/>;
+			} else if (loading) {
+				return <p>Loading...</p>
+			}
+			return <p>Hey</p>
 		}}
 	</Query>
 );
