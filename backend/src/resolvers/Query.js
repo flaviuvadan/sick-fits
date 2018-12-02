@@ -27,16 +27,13 @@ const Query = {
 	 */
 	currentUser(parent, args, ctx, info) {
 		// check if there is a current userId
-		if (!ctx.request.userId) {
-			// important to return null in this case
-			return null;
-		} else {
-			return ctx.db.query.user({
-				where: {
-					id: ctx.request.userId
-				}
-			}, info);
-		}
+		isLoggedIn(ctx);
+
+		return ctx.db.query.user({
+			where: {
+				id: ctx.request.userId
+			}
+		}, info);
 	},
 
 	/**
@@ -49,9 +46,7 @@ const Query = {
 	 */
 	async users(parent, args, ctx, info) {
 		// check if logged in
-		if (!ctx.request.userId) {
-			throw new Error('You must log in first');
-		}
+		isLoggedIn(ctx);
 		// check if user has permissions to query
 		const PERMISSIONS = ['ADMIN', 'PERMISSIONUPDATE'];
 		hasPermission(ctx.request.user, PERMISSIONS);
@@ -60,5 +55,15 @@ const Query = {
 	}
 };
 
+/**
+ * Check if a user is logged in
+ * @param ctx - context of request
+ * @returns nothing if logged in,
+ */
+function isLoggedIn(ctx) {
+	if (!ctx.request.userId) {
+		throw new Error('You must log in first');
+	}
+}
 
 module.exports = Query;
