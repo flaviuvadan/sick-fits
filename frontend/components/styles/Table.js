@@ -11,7 +11,7 @@ const Table = styled.table`
   th {
     border-bottom: 1px solid ${props => props.theme.offWhite};
     border-right: 1px solid ${props => props.theme.offWhite};
-    padding: 10px 5px;
+    padding: 5px;
     position: relative;
     &:last-child {
       border-right: none;

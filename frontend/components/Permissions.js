@@ -79,19 +79,21 @@ class UserPermissions extends Component {
 			<tr>
 				<td>{user.name}</td>
 				<td>{user.email}</td>
-				{PERMISSIONS.map(permission => {
-					return (
-						<td key={`${user.id}-permission-${permission}`}>
-							<label htmlFor={`${user.id}-permission-${permission}`}>
-								<input type="checkbox"
-									   checked={this.state.permissions.includes(permission)}
-									   value={permission}
-									   onChange={this.handlePermissionChange}/>
-							</label>
-						</td>
-					)
-				})}
-				<td><SickButton>Update</SickButton></td>
+				{PERMISSIONS.map(permission =>
+					<td key={permission}>
+						<label htmlFor={`${user.id}-permission-${permission}`}>
+							<input id={`${user.id}-permission-${permission}`}
+								   type="checkbox"
+								   checked={this.state.permissions.includes(permission)}
+								   value={permission}
+								   onChange={this.handlePermissionChange}
+							/>
+						</label>
+					</td>
+				)}
+				<td>
+					<SickButton>Update</SickButton>
+				</td>
 			</tr>
 		)
 	}

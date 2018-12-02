@@ -4,6 +4,7 @@ const { randomBytes } = require('crypto');
 // takes callback-based functions and makes them Promise-based
 const { promisify } = require('util');
 const { transport, makeEmail } = require('../mail');
+const { hasPermission } = require('../utils');
 
 
 const ONE_YEAR = 1000 * 60 * 60 * 24 * 365;
@@ -274,6 +275,40 @@ const Mutation = {
 		// return user
 		return updatedUser;
 	},
+
+	/**
+	 * Update permissions
+	 * @param parent
+	 * @param args - arguments of resetPassword
+	 * @param ctx - context of request
+	 * @param info - additional info
+	 * @returns {Promise<void>}
+	 */
+	async updatePermissions(parent, args, ctx, info) {
+		// check if logged in
+		isLoggedIn(ctx);
+		// query current user
+		const currentUser = await ctx.db.query.user({
+			where: {
+				id: ctx.request.userId,
+			}
+		}, info);
+		// check if has permissions
+		const permissions = ['ADMIN', 'PERMISSIONUPDATE'];
+		hasPermission(currentUser, permissions);
+		// update permissions
+		return ctx.db.mutation.updateUser({
+			data: {
+				permissions: {
+					// Prisma-specific set notation
+					set: args.permissions,
+				}
+			},
+			where: {
+				id: args.userId,
+			},
+		}, info)
+	}
 };
 
 /**
@@ -301,6 +336,17 @@ function setCookie(token, ctx) {
 		httpOnly: true,
 		maxAge: ONE_YEAR
 	});
+}
+
+/**
+ * Check if a user is logged in
+ * @param ctx - context of request
+ * @returns nothing if logged in,
+ */
+function isLoggedIn(ctx) {
+	if (!ctx.request.userId) {
+		throw new Error('You must log in first');
+	}
 }
 
 module.exports = Mutation;
