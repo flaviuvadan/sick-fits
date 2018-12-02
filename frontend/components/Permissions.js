@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Query } from 'react-apollo';
+import { Query, Mutation } from 'react-apollo';
 import PropTypes from 'prop-types';
 import Error from './ErrorMessage';
 import { ALL_USERS_QUERY } from "../queries/queries";
 import Table from './styles/Table';
 import SickButton from './styles/SickButton';
+import { UPDATE_PERMISSIONS_MUTATION } from "../queries/queries";
 
 const PERMISSIONS = [
 	'ADMIN',
@@ -76,25 +77,41 @@ class UserPermissions extends Component {
 	render() {
 		const user = this.props.user;
 		return (
-			<tr>
-				<td>{user.name}</td>
-				<td>{user.email}</td>
-				{PERMISSIONS.map(permission =>
-					<td key={permission}>
-						<label htmlFor={`${user.id}-permission-${permission}`}>
-							<input id={`${user.id}-permission-${permission}`}
-								   type="checkbox"
-								   checked={this.state.permissions.includes(permission)}
-								   value={permission}
-								   onChange={this.handlePermissionChange}
-							/>
-						</label>
-					</td>
+			<Mutation mutation={UPDATE_PERMISSIONS_MUTATION} variables={{
+				permissions: this.state.permissions,
+				userId: this.props.user.id,
+			}}>
+				{(updatePermissions, { loading, error }) => (
+					<>
+						{error && <tr>
+							<td colspan="9"><Error error={error}/></td>
+						</tr>}
+						<tr>
+							<td>{user.name}</td>
+							<td>{user.email}</td>
+							{PERMISSIONS.map(permission =>
+								<td key={permission}>
+									<label htmlFor={`${user.id}-permission-${permission}`}>
+										<input id={`${user.id}-permission-${permission}`}
+											   type="checkbox"
+											   checked={this.state.permissions.includes(permission)}
+											   value={permission}
+											   onChange={this.handlePermissionChange}
+										/>
+									</label>
+								</td>
+							)}
+							<td>
+								<SickButton type="button"
+											disabled={loading}
+											onClick={updatePermissions}>
+									Updat{loading ? 'ing': 'e'}
+								</SickButton>
+							</td>
+						</tr>
+					</>
 				)}
-				<td>
-					<SickButton>Update</SickButton>
-				</td>
-			</tr>
+			</Mutation>
 		)
 	}
 }
