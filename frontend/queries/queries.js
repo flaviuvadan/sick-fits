@@ -183,3 +183,14 @@ export const REQUEST_RESET_MUTATION = gql`
 		}
 	}
 `;
+
+export const ALL_USERS_QUERY = gql`
+	query ALL_USERS_QUERY {
+		users {
+			id
+			name
+			email
+			permissions
+		}
+	}
+`;
