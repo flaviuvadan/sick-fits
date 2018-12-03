@@ -21,7 +21,7 @@ const Mutation = {
 	 */
 	async createItem(parent, args, ctx, info) {
 		// access check
-		if(!ctx.request.userId) {
+		if (!ctx.request.userId) {
 			throw new Error('You must log in first');
 		}
 
@@ -74,12 +74,27 @@ const Mutation = {
 	async deleteItem(parent, args, ctx, info) {
 		const where = { id: args.id };
 		// find/search/query the item
-		const item = await ctx.db.query.item(
-			{ where },
-			`{ id, title }`
-		);
-		// check if user owns the item, or have permissions
-		// TODO
+		const item = await ctx.db.query.item({
+				where: {
+					id: args.id
+				},
+			},
+			// return structure
+			`{ 
+				id
+				title
+				user { id }
+			}`);
+		// check if user owns the item, or has permissions
+		const ownsItem = item.user.id === ctx.request.userId;
+		const hasPermission = ctx.request.user.permissions.some(permission => {
+			['ADMIN', 'ITEMDELETE'].includes(permission);
+		});
+
+		if (!ownsItem && !hasPermission) {
+			throw new Error('You do not have permission to delete');
+		}
+
 		// delete it
 		return ctx.db.mutation.deleteItem({
 				where
