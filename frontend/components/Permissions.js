@@ -29,7 +29,6 @@ const Permissions = props => (
 							<th>Name</th>
 							<th>Email</th>
 							{PERMISSIONS.map(permission => <th key={permission}>{permission}</th>)}
-							<th>Action</th>
 						</tr>
 						</thead>
 						<tbody>{data.users.map(user => <UserPermissions user={user} key={user.id}/>)}</tbody>
@@ -60,8 +59,9 @@ class UserPermissions extends Component {
 	/**
 	 * Handle permission changes on the table
 	 * @param e - event
+	 * @param callback - callback function
 	 */
-	handlePermissionChange = e => {
+	handlePermissionChange = (e, callback) => {
 		const checkbox = e.target;
 		// copy current permissions (deep copy)
 		let updatedPermissions = [...this.state.permissions];
@@ -71,7 +71,11 @@ class UserPermissions extends Component {
 		} else {
 			updatedPermissions = updatedPermissions.filter(permission => permission !== checkbox.value);
 		}
-		this.setState({ permissions: updatedPermissions });
+		// this can result in a race condition if setState is not done before updatePermissions()
+		// we use updatePermissions as a callback here
+		this.setState({ permissions: updatedPermissions }, () => {
+			callback();
+		});
 	};
 
 	render() {
@@ -96,18 +100,13 @@ class UserPermissions extends Component {
 											   type="checkbox"
 											   checked={this.state.permissions.includes(permission)}
 											   value={permission}
-											   onChange={this.handlePermissionChange}
+											   onChange={(e) => {
+											   	this.handlePermissionChange(e, updatePermissions)
+											   }}
 										/>
 									</label>
 								</td>
 							)}
-							<td>
-								<SickButton type="button"
-											disabled={loading}
-											onClick={updatePermissions}>
-									Updat{loading ? 'ing': 'e'}
-								</SickButton>
-							</td>
 						</tr>
 					</>
 				)}
