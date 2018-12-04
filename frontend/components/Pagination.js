@@ -13,7 +13,7 @@ export default class Pagination extends Component {
 			<Query query={PAGINATION_QUERY}>
 				{({ data, loading, error }) => {
 					if (loading) return <p>Loading...</p>;
-					if (error) return <p>Error!</p>
+					if (error) return <p>Error!</p>;
 					const count = data.itemsConnection.aggregate.count;
 					const pages = Math.ceil(count / perPage);
 					const page = this.props.page;
