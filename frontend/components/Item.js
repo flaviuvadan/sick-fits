@@ -49,7 +49,7 @@ class Item extends Component {
 							id: item.id,
 						}
 					}}><a>Edit</a></Link>
-					<AddToCart/>
+					<AddToCart id={item.id}/>
 					<DeleteItem id={item.id}>Delete</DeleteItem>
 				</div>
 

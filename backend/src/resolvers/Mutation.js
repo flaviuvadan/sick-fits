@@ -339,12 +339,14 @@ const Mutation = {
 		const userId = ctx.request.userId;
 
 		// query user's current cart, destructure first item
-		const [existingCartItem] = ctx.db.query.cartItems({
-			item: {
-				id: args.id,
-			},
-			user: {
-				id: userId,
+		const [existingCartItem] = await ctx.db.query.cartItems({
+			where: {
+				item: {
+					id: args.id,
+				},
+				user: {
+					id: userId,
+				},
 			},
 		});
 		// check if that item is already in the cart, increment if so
@@ -357,7 +359,7 @@ const Mutation = {
 					quantity: existingCartItem.quantity + 1,
 
 				},
-			});
+			}, info);
 		}
 		// o/w, create fresh cartItem for user
 		return ctx.db.mutation.createCartItem({
@@ -376,7 +378,7 @@ const Mutation = {
 					}
 				},
 			}
-		})
+		}, info);
 	}
 };
 
