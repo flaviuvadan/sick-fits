@@ -323,6 +323,60 @@ const Mutation = {
 				id: args.userId,
 			},
 		}, info)
+	},
+
+	/**
+	 * Add to users' cart
+	 * @param parent
+	 * @param args - arguments of resetPassword
+	 * @param ctx - context of request
+	 * @param info - additional info
+	 * @returns {Promise<void>}
+	 */
+	async addToCart(parent, args, ctx, info) {
+		// check if logged in
+		isLoggedIn(ctx);
+		const userId = ctx.request.userId;
+
+		// query user's current cart, destructure first item
+		const [existingCartItem] = ctx.db.query.cartItems({
+			item: {
+				id: args.id,
+			},
+			user: {
+				id: userId,
+			},
+		});
+		// check if that item is already in the cart, increment if so
+		if (existingCartItem) {
+			return ctx.db.mutation.updateCartItem({
+				where: {
+					id: existingCartItem.id,
+				},
+				data: {
+					quantity: existingCartItem.quantity + 1,
+
+				},
+			});
+		}
+		// o/w, create fresh cartItem for user
+		return ctx.db.mutation.createCartItem({
+			// establish connections between users and items
+			data: {
+				user: {
+					connect: {
+						// user id
+						id: userId,
+					}
+				},
+				item: {
+					connect: {
+						// past item id
+						id: args.id,
+					}
+				},
+			}
+		})
 	}
 };
 
