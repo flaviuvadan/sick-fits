@@ -4,7 +4,7 @@ import CartStyles from './styles/CartStyles';
 import Supreme from './styles/Supreme';
 import CloseButton from './styles/CloseButton';
 import SickButton from './styles/SickButton';
-import { LOCAL_STATE_QUERY } from "../queries/queries";
+import { LOCAL_STATE_QUERY, TOGGLE_CART_MUTATION } from "../queries/queries";
 
 const Cart = () => (
 	<Query query={LOCAL_STATE_QUERY}>

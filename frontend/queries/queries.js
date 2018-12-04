@@ -218,3 +218,9 @@ export const LOCAL_STATE_QUERY = gql`
         cartOpen @client
     }
 `;
+
+export const TOGGLE_CART_MUTATION = gql`
+	mutation TOGGLE_CART_MUTATION {
+        toggleCart @client
+    }
+`;
