@@ -220,7 +220,20 @@ export const LOCAL_STATE_QUERY = gql`
 `;
 
 export const TOGGLE_CART_MUTATION = gql`
-	mutation TOGGLE_CART_MUTATION {
+    mutation TOGGLE_CART_MUTATION {
         toggleCart @client
+    }
+`;
+
+export const ADD_TO_CART_MUTATION = gql`
+    mutation ADD_TO_CART_MUTATION(
+    $id: ID!
+    ) {
+        addToCart(
+            id: $id
+        ) {
+            id
+            quantity
+        }
     }
 `;
