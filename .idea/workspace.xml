@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/lib/withData.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/withData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/queries/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/queries/queries.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,23 +64,23 @@
           <entry key="env" value="149" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="1742" />
-          <entry key="js" value="45874" />
+          <entry key="js" value="46549" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="5131" />
+          <entry key="txt" value="5204" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="89" />
-          <entry key="GraphQL" value="1650" />
+          <entry key="GraphQL" value="1651" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="45718" />
+          <entry key="JavaScript" value="46392" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="5635" />
+          <entry key="PLAIN_TEXT" value="5708" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -106,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/lib/withData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="630">
+              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#326#366#0" expanded="true" />
@@ -123,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="868">
-              <caret line="214" column="109" selection-start-line="214" selection-start-column="109" selection-end-line="214" selection-end-column="109" />
+              <caret line="223" column="18" selection-start-line="223" selection-start-column="8" selection-end-line="223" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -167,11 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/components/Cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="405">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -423,21 +422,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="30136000" />
-    </task>
-    <task id="LOCAL-00077" summary="Add express middleware to pass along stored cookies for current users">
-      <created>1543367159300</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1543367159300</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Add currentUser query">
-      <created>1543367485802</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1543367485802</updated>
+      <workItem from="1542679218152" duration="30861000" />
     </task>
     <task id="LOCAL-00079" summary="Add CURRENT_USER_QUERY and start implementing User component">
       <created>1543367756921</created>
@@ -768,11 +753,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543884391668</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Add LOCAL_STATE_QUERY and use it in Cart">
+      <created>1543884606526</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1543884606526</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Add TOGGLE_CART_MUTATION">
+      <created>1543884674230</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1543884674230</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82847000" />
+    <option name="totallyTimeSpent" value="83572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -817,8 +816,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add makeEmail function and transport for SMTP" />
-    <MESSAGE value="Fix port (string -&gt; int) and complete password reset flow" />
     <MESSAGE value="Update datamodel and regen" />
     <MESSAGE value="Edit mutator to establish relationship between item and user" />
     <MESSAGE value="Add basic SigninWarning component" />
@@ -842,7 +839,9 @@
     <MESSAGE value="Perform a permissions check upon item deletion" />
     <MESSAGE value="Add basic cart component" />
     <MESSAGE value="Add client state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add client state" />
+    <MESSAGE value="Add LOCAL_STATE_QUERY and use it in Cart" />
+    <MESSAGE value="Add TOGGLE_CART_MUTATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TOGGLE_CART_MUTATION" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/components/ErrorMessage.js">
@@ -1240,30 +1239,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/lib/withData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#326#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="868">
-          <caret line="214" column="109" selection-start-line="214" selection-start-column="109" selection-end-line="214" selection-end-column="109" />
+          <caret line="223" column="18" selection-start-line="223" selection-start-column="8" selection-end-line="223" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Cart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="405">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/lib/withData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#326#366#0" expanded="true" />
           </folding>
         </state>
       </provider>

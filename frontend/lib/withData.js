@@ -7,6 +7,9 @@ import withApollo from 'next-with-apollo';
 import ApolloClient from 'apollo-boost';
 import { endpoint } from '../config';
 
+import { LOCAL_STATE_QUERY } from "../queries/queries";
+
+
 // header important for authentication
 function createClient({ headers }) {
 	return new ApolloClient({
@@ -20,11 +23,29 @@ function createClient({ headers }) {
 				headers,
 			});
 		},
-      	// local data
+		// local data
 		clientState: {
-			resolvers: {},
-			default: {
-				cartOpen: false
+			resolvers: {
+				Mutation: {
+					// toggleCart will have one variable garbage collected
+					toggleCart(_, variables, { cache }) {
+						// read cartOpen value from cache
+						const { cartOpen } = cache.readQuery({
+							query: LOCAL_STATE_QUERY,
+						});
+						// write cart state to opposite
+						const data = {
+							data: {
+								cartOpen: !cartOpen,
+							},
+						};
+						cache.writeData(data);
+						return data;
+					},
+				},
+			},
+			defaults: {
+				cartOpen: true
 			}
 		}
 	});
