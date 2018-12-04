@@ -9,18 +9,25 @@ import { endpoint } from '../config';
 
 // header important for authentication
 function createClient({ headers }) {
-  return new ApolloClient({
-    uri: process.env.NODE_ENV === 'development' ? endpoint : endpoint,
-      // include credentials on every request, includes cookies
-    request: operation => {
-      operation.setContext({
-        fetchOptions: {
-          credentials: 'include',
-        },
-        headers,
-      });
-    },
-  });
+	return new ApolloClient({
+		uri: process.env.NODE_ENV === 'development' ? endpoint : endpoint,
+		// include credentials on every request, includes cookies
+		request: operation => {
+			operation.setContext({
+				fetchOptions: {
+					credentials: 'include',
+				},
+				headers,
+			});
+		},
+      	// local data
+		clientState: {
+			resolvers: {},
+			default: {
+				cartOpen: true
+			}
+		}
+	});
 }
 
 export default withApollo(createClient);

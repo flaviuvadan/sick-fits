@@ -1,4 +1,5 @@
 import React from 'react';
+import { Query, Mutation } from 'react-apollo'
 import CartStyles from './styles/CartStyles';
 import Supreme from './styles/Supreme';
 import CloseButton from './styles/CloseButton';
