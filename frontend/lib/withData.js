@@ -24,7 +24,7 @@ function createClient({ headers }) {
 		clientState: {
 			resolvers: {},
 			default: {
-				cartOpen: true
+				cartOpen: false
 			}
 		}
 	});
