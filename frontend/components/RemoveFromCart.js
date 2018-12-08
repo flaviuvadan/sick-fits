@@ -23,7 +23,8 @@ class RemoveFromCart extends React.Component {
 
 	render() {
 		return (
-			<Mutation mutation={REMOVE_FROM_CART_MUTATION} variables={{ id: this.props.id }}>
+			<Mutation mutation={REMOVE_FROM_CART_MUTATION} variables={{ id: this.props.id }}
+					  refetchQueries={[{ query: CURRENT_USER_QUERY }]}>
 				{(removeFromCart, { loading }) => {
 					return (
 						<RemoveButton title="Remove Item" disabled={loading}
