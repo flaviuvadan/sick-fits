@@ -25,7 +25,7 @@ const Cart = () => (
 								</header>
 								<ul>
 									{currentUser.cart.map(cartItem => {
-										return <CartItem key={cartItem.id} cartItem={cartItem}>
+										return <CartItem key={cartItem.id} cartItem={cartItem}/>
 									})}
 								</ul>
 								<footer>
