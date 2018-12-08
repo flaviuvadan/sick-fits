@@ -22,8 +22,10 @@ const Cart = () => (
 								<header>
 									<CloseButton title="close" onClick={toggleCart}>&times;</CloseButton>
 									<Supreme>Cart</Supreme>
-									<p>You have {currentUser.cart.length}
-										item{currentUser.cart.length === 1 ? '' : 's'} in your cart</p>
+									<p>
+										You have {currentUser.cart.length} item{currentUser.cart.length === 1 ? '' :
+										's'} in your cart
+									</p>
 								</header>
 								<ul>
 									{currentUser.cart.map(cartItem => {
