@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/CartItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,9 +32,9 @@
           <entry key="MD" value="2" />
           <entry key="env" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="graphql" value="25" />
+          <entry key="graphql" value="26" />
           <entry key="graphqls" value="5" />
-          <entry key="js" value="202" />
+          <entry key="js" value="203" />
           <entry key="json" value="3" />
           <entry key="jsx" value="1" />
           <entry key="md" value="6" />
@@ -48,10 +48,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="2" />
-          <entry key="GraphQL" value="23" />
+          <entry key="GraphQL" value="24" />
           <entry key="GraphQL Schema" value="5" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="202" />
+          <entry key="JavaScript" value="203" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
@@ -65,24 +65,24 @@
           <entry key="MD" value="735" />
           <entry key="env" value="149" />
           <entry key="gitignore" value="15" />
-          <entry key="graphql" value="1901" />
-          <entry key="js" value="49809" />
+          <entry key="graphql" value="1937" />
+          <entry key="js" value="50387" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="6029" />
+          <entry key="txt" value="6091" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="89" />
-          <entry key="GraphQL" value="1828" />
+          <entry key="GraphQL" value="1864" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="49634" />
+          <entry key="JavaScript" value="50212" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="6533" />
+          <entry key="PLAIN_TEXT" value="6595" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -107,14 +107,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/components/Cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="85" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
+            <state relative-caret-position="600">
+              <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="622">
+              <caret line="405" lean-forward="true" selection-start-line="405" selection-end-line="405" />
             </state>
           </provider>
         </entry>
@@ -135,7 +153,7 @@
         <entry file="file://$PROJECT_DIR$/frontend/components/CartItem.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="45" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -278,14 +296,14 @@
         <option value="$PROJECT_DIR$/frontend/components/Header.js" />
         <option value="$PROJECT_DIR$/frontend/components/Nav.js" />
         <option value="$PROJECT_DIR$/backend/datamodel.graphql" />
-        <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
         <option value="$PROJECT_DIR$/frontend/lib/withData.js" />
         <option value="$PROJECT_DIR$/frontend/components/Item.js" />
-        <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
         <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/frontend/components/AddToCart.js" />
         <option value="$PROJECT_DIR$/frontend/components/CartItem.js" />
         <option value="$PROJECT_DIR$/frontend/components/Cart.js" />
+        <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
+        <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
       </list>
     </option>
   </component>
@@ -419,14 +437,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="35505000" />
-    </task>
-    <task id="LOCAL-00097" summary="Fix mutation return values">
-      <created>1543700585606</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1543700585606</updated>
+      <workItem from="1542679218152" duration="36138000" />
     </task>
     <task id="LOCAL-00098" summary="Rename Reset page to ResetPage and use Reset component">
       <created>1543700610010</created>
@@ -764,11 +775,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544289211016</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Add styling to cart items and display final price in Cart">
+      <created>1544289467118</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1544289467118</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88216000" />
+    <option name="totallyTimeSpent" value="88849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -813,7 +831,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Permissions component" />
     <MESSAGE value="Use updatePermissions as a callback after setState" />
     <MESSAGE value="Perform a permissions check upon item deletion" />
     <MESSAGE value="Add basic cart component" />
@@ -838,7 +855,8 @@
     <MESSAGE value="Modify CURRENT_USER_QUERY to also return item (can do because of cart relationship with items)" />
     <MESSAGE value="Display price per item and quantity in cart" />
     <MESSAGE value="Add loading state to add to cart button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add loading state to add to cart button" />
+    <MESSAGE value="Add styling to cart items and display final price in Cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add styling to cart items and display final price in Cart" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/backend/src/db.js">
@@ -1157,13 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/lib/withData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -1196,13 +1207,6 @@
           <folding>
             <element signature="e#48#77#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="342" column="20" selection-start-line="342" selection-start-column="20" selection-end-line="342" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1243,17 +1247,31 @@
     <entry file="file://$PROJECT_DIR$/frontend/components/CartItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="45" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Cart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="85" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
+        <state relative-caret-position="600">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="405" lean-forward="true" selection-start-line="405" selection-end-line="405" />
         </state>
       </provider>
     </entry>

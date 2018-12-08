@@ -379,6 +379,36 @@ const Mutation = {
 				},
 			}
 		}, info);
+	},
+
+	/**
+	 * Remove from users' cart
+	 * @param parent
+	 * @param args - arguments of resetPassword
+	 * @param ctx - context of request
+	 * @param info - additional info (query coming from client side)
+	 * @returns {Promise<void>}
+	 */
+	async removeFromCart(parent, args, ctx, info) {
+		// get item
+		const item = await ctx.db.query.cartItem({
+			where: {
+				id: args.id,
+			}
+		}, `{id, user { id } }`);
+		if (!item) {
+			throw new Error('No item found');
+		}
+
+		if (item.user.id !== ctx.request.userId) {
+			throw new Error('Permission denied');
+		}
+
+		return ctx.db.mutation.deleteCartItem({
+			where: {
+				id: args.id,
+			}
+		}, info)
 	}
 };
 
