@@ -3,7 +3,9 @@ import Router from 'next/router';
 import Link from 'next/link';
 import NProgress from 'nprogress';
 import styled from 'styled-components';
-import Cart from '../components/Cart';
+import Cart from './Cart';
+import Search from './Search';
+
 
 // listen to changes in the router as we go from one component to another and set each to a function
 Router.onRouteChangeStart = () => {
@@ -66,7 +68,7 @@ const Header = () => (
             <Nav/>
         </div>
         <div className="sub-bar">
-            <p>Search</p>
+            <Search>Search</Search>
         </div>
         <Cart/>
     </StyledHeader>

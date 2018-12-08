@@ -20,3 +20,5 @@ class AutoComplete extends React.Component {
 		)
 	}
 }
+
+export default AutoComplete;

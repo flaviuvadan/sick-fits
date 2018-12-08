@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/components/Search.js" afterDir="false" />
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Implement basic AutoComplete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Search.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +34,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="27" />
           <entry key="graphqls" value="5" />
-          <entry key="js" value="209" />
+          <entry key="js" value="210" />
           <entry key="json" value="3" />
           <entry key="jsx" value="1" />
           <entry key="md" value="6" />
@@ -50,7 +51,7 @@
           <entry key="GraphQL" value="25" />
           <entry key="GraphQL Schema" value="5" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="209" />
+          <entry key="JavaScript" value="210" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
@@ -65,11 +66,11 @@
           <entry key="env" value="149" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="1939" />
-          <entry key="js" value="55767" />
+          <entry key="js" value="55852" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="6765" />
+          <entry key="txt" value="6781" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -79,9 +80,9 @@
           <entry key="GraphQL" value="1870" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="55588" />
+          <entry key="JavaScript" value="55673" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="7269" />
+          <entry key="PLAIN_TEXT" value="7285" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -106,13 +107,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/components/Search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="345">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,7 +192,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>connection</find>
       <find>&lt;Pagination page</find>
       <find>ItemWhereInput</find>
       <find>ItemOrderByInput</find>
@@ -209,6 +221,7 @@
       <find>refetchQueries=</find>
       <find>Delete item</find>
       <find>remove</find>
+      <find>search</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -261,7 +274,6 @@
         <option value="$PROJECT_DIR$/frontend/components/Permissions.js" />
         <option value="$PROJECT_DIR$/frontend/components/DeleteItem.js" />
         <option value="$PROJECT_DIR$/frontend/components/Pagination.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Header.js" />
         <option value="$PROJECT_DIR$/frontend/lib/withData.js" />
         <option value="$PROJECT_DIR$/frontend/components/Item.js" />
         <option value="$PROJECT_DIR$/frontend/components/AddToCart.js" />
@@ -275,6 +287,7 @@
         <option value="$PROJECT_DIR$/frontend/components/RemoveFromCart.js" />
         <option value="$PROJECT_DIR$/frontend/components/Cart.js" />
         <option value="$PROJECT_DIR$/frontend/components/Search.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Header.js" />
       </list>
     </option>
   </component>
@@ -408,14 +421,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="42645000" />
-    </task>
-    <task id="LOCAL-00112" summary="Add ALL_USERS_QUERY">
-      <created>1543757033206</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1543757033206</updated>
+      <workItem from="1542679218152" duration="42815000" />
     </task>
     <task id="LOCAL-00113" summary="Refactor Permissions">
       <created>1543757304488</created>
@@ -753,11 +759,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544311677442</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Implement basic AutoComplete">
+      <created>1544312482355</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1544312482355</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95356000" />
+    <option name="totallyTimeSpent" value="95526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -802,7 +815,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Use the User component in Cart (access info about currentUser)" />
     <MESSAGE value="Include cart in CURRENT_USER_QUERY" />
     <MESSAGE value="Show number of items in Cart" />
     <MESSAGE value="Refetch CURRENT_USER_QUERY when a new item is added" />
@@ -827,7 +839,8 @@
     <MESSAGE value="Make Item not a requirement on the datamodel and re-deploy Prisma" />
     <MESSAGE value="Code reformatting" />
     <MESSAGE value="Refactor Cart to avoid nesting too many queries - implement Composed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Cart to avoid nesting too many queries - implement Composed" />
+    <MESSAGE value="Implement basic AutoComplete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement basic AutoComplete" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/components/Signout.js">
@@ -1098,16 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/lib/withData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -1259,10 +1262,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="345">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
