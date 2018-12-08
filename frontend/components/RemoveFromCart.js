@@ -17,6 +17,10 @@ const RemoveButton = styled.button`
 `;
 
 class RemoveFromCart extends React.Component {
+	static propTypes = {
+		id: PropTypes.string.isRequired,
+	};
+
 	render() {
 		return (
 			<RemoveButton title="Remove Item">&times;</RemoveButton>
