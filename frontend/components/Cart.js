@@ -22,7 +22,11 @@ const Cart = () => (
 									<p>You have {currentUser.cart.length}
 										item{currentUser.cart.length === 1 ? '' : 's'} in your cart</p>
 								</header>
-
+								<ul>
+									{currentUser.cart.map(cartItem => {
+										return <li key={cartItem.id}>{cartItem.id}</li>
+									})}
+								</ul>
 								<footer>
 									<p>$10.00</p>
 									<SickButton>Checkout</SickButton>
