@@ -144,7 +144,14 @@ export const CURRENT_USER_QUERY = gql`
             permissions
 			cart {
 				id 
-				quantity 
+				quantity
+				item {
+					id
+					price
+					image
+					title
+					description
+				}
 			}
         }
     }
