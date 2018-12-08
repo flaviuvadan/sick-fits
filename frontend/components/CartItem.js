@@ -5,13 +5,23 @@ import PropTypes from 'prop-types';
 
 
 const CartItemStyles = styled.li`
-
+	
 `;
 
-const CartItem = props => {
+const CartItem = ({ cartItem }) => {
 	return (
 		<CartItemStyles>
-			{props.cartItem.id}
+			<img width="200" src={cartItem.item.image} alt={cartItem.item.title}/>
+			<div className="cart-item-details">
+				<h3>{cartItem.item.title}</h3>
+				<p>
+					{formatMoney(cartItem.item.price * cartItem.quantity)}
+					{ '-' }
+					<em>
+						{cartItem.quantity} &times; {formatMoney(cartItem.item.price)}
+					</em>
+				</p>
+			</div>
 		</CartItemStyles>
 	)
 };
