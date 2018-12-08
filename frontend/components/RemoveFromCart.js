@@ -2,7 +2,7 @@ import React from 'react';
 import { Mutation } from 'react-apollo';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { CURRENT_USER_QUERY } from "../queries/queries";
+import { CURRENT_USER_QUERY, REMOVE_FROM_CART_MUTATION } from "../queries/queries";
 
 
 const RemoveButton = styled.button`
@@ -23,7 +23,18 @@ class RemoveFromCart extends React.Component {
 
 	render() {
 		return (
-			<RemoveButton title="Remove Item">&times;</RemoveButton>
+			<Mutation mutation={REMOVE_FROM_CART_MUTATION} variables={{ id: this.props.id }}>
+				{(removeFromCart, { loading }) => {
+					return (
+						<RemoveButton title="Remove Item" disabled={loading}
+									  onClick={() => {
+										  removeFromCart({}).catch(err => alert(err.message));
+									  }}>
+							&times;
+						</RemoveButton>
+					);
+				}}
+			</Mutation>
 		);
 	}
 }
