@@ -51,7 +51,8 @@ class RemoveFromCart extends React.Component {
 						__typename: 'CartItem',
 						id: this.props.id,
 					}
-				}}>
+				}}
+				refetchQueries={[{ query: CURRENT_USER_QUERY }]}>
 				{(removeFromCart, { loading }) => {
 					return (
 						<RemoveButton title="Remove Item" disabled={loading}
