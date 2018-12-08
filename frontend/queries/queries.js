@@ -142,17 +142,17 @@ export const CURRENT_USER_QUERY = gql`
             email
             name
             permissions
-			cart {
-				id 
-				quantity
-				item {
-					id
-					price
-					image
-					title
-					description
-				}
-			}
+            cart {
+                id
+                quantity
+                item {
+                    id
+                    price
+                    image
+                    title
+                    description
+                }
+            }
         }
     }
 `;
@@ -246,5 +246,13 @@ export const ADD_TO_CART_MUTATION = gql`
             id
             quantity
         }
+    }
+`;
+
+export const REMOVE_FROM_CART_MUTATION = gql`
+    mutation REMOVE_FROM_CART_MUTATION(
+    $id: ID!
+    ) {
+		id
     }
 `;
