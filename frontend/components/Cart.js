@@ -5,6 +5,7 @@ import Supreme from './styles/Supreme';
 import CloseButton from './styles/CloseButton';
 import SickButton from './styles/SickButton';
 import User from '../components/User';
+import CartItem from '../components/CartItem';
 import { LOCAL_STATE_QUERY, TOGGLE_CART_MUTATION } from "../queries/queries";
 
 const Cart = () => (
@@ -24,7 +25,7 @@ const Cart = () => (
 								</header>
 								<ul>
 									{currentUser.cart.map(cartItem => {
-										return <li key={cartItem.id}>{cartItem.id}</li>
+										return <CartItem key={cartItem.id} cartItem={cartItem}>
 									})}
 								</ul>
 								<footer>
