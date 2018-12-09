@@ -458,9 +458,54 @@ const Mutation = {
 			// could have description along with this; everything is in the Stripe docs
 		});
 		// convert cart items to order items
+		const orderItems = user.cart.map(cartItem => {
+			const orderItem = {
+				// the spread of cartItem.item is the same as what's commented below but uses syntactic sugar
+				...cartItem.item,
+				// id: cartItem.item.id,
+				// title: cartItem.item.title,
+				// description: cartItem.item.description,
+				// image: cartItem.item.image,
+				// largeImage: cartItem.item.largeImage,
+				// price: cartItem.item.price,
+				quantity: cartItem.quantity,
+				user: {
+					connect: {
+						id: {
+							id: user.id,
+						}
+					}
+				}
+			};
+			delete orderItem.id;
+			return orderItem;
+		});
 		// create order
+		const order = await ctx.db.mutation.createOrder({
+			data: {
+				total: charge.amount,
+				charge: charge.id,
+				items: {
+					// passing an array of back-end type dict orderItems and Prisma will create the array of actual
+					// of [OrderItem]
+					create: orderItems,
+				},
+				user: {
+					connect: {
+						id: user.id,
+					}
+				},
+			}
+		});
 		// clean up - clear users' cart/delete cart items from db
+		const cartItemIds = user.cart.map(cartItem => cartItem.id);
+		await ctx.db.mutation.deleteManyCartItems({
+			where: {
+				id_in: cartItemIds,
+			}
+		});
 		// return order to client
+		return order;
 	}
 };
 
