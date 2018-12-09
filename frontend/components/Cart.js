@@ -40,12 +40,14 @@ const Cart = () => (
 							return <CartItem key={cartItem.id} cartItem={cartItem}/>
 						})}
 					</ul>
-					<Charge>
-						<footer>
-							<p>{formatMoney(calcTotalPrice(currentUser.cart))}</p>
-							<SickButton>Checkout</SickButton>
-						</footer>
-					</Charge>
+					{currentUser.cart.length && (
+						<Charge>
+							<footer>
+								<p>{formatMoney(calcTotalPrice(currentUser.cart))}</p>
+								<SickButton>Checkout</SickButton>
+							</footer>
+						</Charge>
+					)}
 				</CartStyles>
 			);
 		}}
