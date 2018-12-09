@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import calcTotalPrice from '../lib/calcTotalPrice';
 import Error from './ErrorMessage';
 import User from './User';
-import { CURRENT_USER_QUERY } from "../queries/queries";
+import { CURRENT_USER_QUERY, CREATE_ORDER_MUTATION } from "../queries/queries";
 
 
 /**
