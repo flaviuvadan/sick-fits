@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Implement StripeCheckout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/Charge.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Charge.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -66,11 +65,11 @@
           <entry key="env" value="149" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="1939" />
-          <entry key="js" value="58766" />
+          <entry key="js" value="59391" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="6959" />
+          <entry key="txt" value="7015" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -80,9 +79,9 @@
           <entry key="GraphQL" value="1885" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="58572" />
+          <entry key="JavaScript" value="59197" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="7463" />
+          <entry key="PLAIN_TEXT" value="7519" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -122,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+            <state relative-caret-position="405">
+              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -139,27 +138,6 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/components/RemoveFromCart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/datamodel.graphql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -404,21 +382,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="46829000" />
-    </task>
-    <task id="LOCAL-00118" summary="Store local changes to permissions">
-      <created>1543760310291</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1543760310291</updated>
-    </task>
-    <task id="LOCAL-00119" summary="Add updatePermissions mutation">
-      <created>1543792320764</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1543792320764</updated>
+      <workItem from="1542679218152" duration="47632000" />
     </task>
     <task id="LOCAL-00120" summary="Add GraphQL UPDATE_PERMISSIONS_MUTATION">
       <created>1543792440441</created>
@@ -749,11 +713,25 @@
       <option name="project" value="LOCAL" />
       <updated>1544374724125</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="Use Charge in User component">
+      <created>1544374789869</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1544374789869</updated>
+    </task>
+    <task id="LOCAL-00168" summary="Implement StripeCheckout">
+      <created>1544375266486</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1544375266486</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99540000" />
+    <option name="totallyTimeSpent" value="100343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -798,8 +776,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pass cartItem via prop and add propType required to CartItem component" />
-    <MESSAGE value="Modify CURRENT_USER_QUERY to also return item (can do because of cart relationship with items)" />
     <MESSAGE value="Display price per item and quantity in cart" />
     <MESSAGE value="Add loading state to add to cart button" />
     <MESSAGE value="Add styling to cart items and display final price in Cart" />
@@ -823,7 +799,9 @@
     <MESSAGE value="Add onChange handler to search" />
     <MESSAGE value="Finish search component adn restyle Header to allow page-width search bar" />
     <MESSAGE value="Add basic Charge component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add basic Charge component" />
+    <MESSAGE value="Use Charge in User component" />
+    <MESSAGE value="Implement StripeCheckout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement StripeCheckout" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/components/Signup.js">
@@ -1259,8 +1237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+        <state relative-caret-position="405">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

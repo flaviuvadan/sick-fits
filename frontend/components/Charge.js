@@ -20,6 +20,14 @@ function totalItems(cart) {
 }
 
 class Charge extends React.Component {
+	/**
+	 * Respond to token returns from Stripe
+	 * @param response
+	 */
+	onToken = response => {
+		console.log(response);
+	};
+
 	render() {
 		return (
 			<User>
@@ -32,6 +40,7 @@ class Charge extends React.Component {
 						stripeKey="pk_test_kMeWdXYUASgLL9oF8dI502Pu"
 						currency="USD"
 						email={currentUser.email}
+						token={response => this.onToken(response)}
 					>
 						{this.props.children}
 					</StripeCheckout>
