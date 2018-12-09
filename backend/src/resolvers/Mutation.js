@@ -395,7 +395,12 @@ const Mutation = {
 			where: {
 				id: args.id,
 			}
-		}, `{id, user { id } }`);
+		}, `{
+				id 
+				user { 
+					id 
+				} 
+			}`);
 		if (!item) {
 			throw new Error('No item found');
 		}
@@ -409,6 +414,47 @@ const Mutation = {
 				id: args.id,
 			}
 		}, info)
+	},
+
+	/**
+	 * Create an order
+	 * @param parent
+	 * @param args - arguments of resetPassword
+	 * @param ctx - context of request
+	 * @param info - additional info (query coming from client side)
+	 * @returns {Promise<void>}
+	 */
+	async createOrder(parent, args, ctx, info) {
+		// query current user and check signed in
+		isLoggedIn(ctx);
+		// re-calc total price; this avoids users fiddling with JS values passed to back-end
+		const user = await ctx.db.query.user({
+			where: {
+				id: ctx.request.userId,
+			}
+		}, `{ 
+				id 
+				name 
+				email 
+				cart { 
+					id 
+					quantity 
+					item { 	
+						id 
+						title 
+						price 
+						description 
+						image 
+					} 
+				}
+			}`);
+		// create Stripe charge
+		const amount = user.cart.reduce((total, cartItem) => total + cartItem.item.price * cartItem.quantity, 0);
+		// convert cart items to order items
+		console.log(amount);
+		// create order
+		// clean up - clear users' cart/delete cart items from db
+		// return order to client
 	}
 };
 
