@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Finish search component adn restyle Header to allow page-width search bar">
-      <change afterPath="$PROJECT_DIR$/frontend/components/Charge.js" afterDir="false" />
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Charge.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Charge.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +34,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="28" />
           <entry key="graphqls" value="5" />
-          <entry key="js" value="212" />
+          <entry key="js" value="213" />
           <entry key="json" value="3" />
           <entry key="jsx" value="1" />
           <entry key="md" value="6" />
@@ -50,7 +51,7 @@
           <entry key="GraphQL" value="26" />
           <entry key="GraphQL Schema" value="5" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="212" />
+          <entry key="JavaScript" value="213" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
@@ -65,11 +66,11 @@
           <entry key="env" value="149" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="1939" />
-          <entry key="js" value="58709" />
+          <entry key="js" value="58766" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="6932" />
+          <entry key="txt" value="6959" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -79,9 +80,9 @@
           <entry key="GraphQL" value="1885" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="58515" />
+          <entry key="JavaScript" value="58572" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="7436" />
+          <entry key="PLAIN_TEXT" value="7463" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -118,23 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/components/Search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+              <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -143,31 +132,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/components/Header.js">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Cart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state relative-caret-position="630">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/src/schema.graphql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/components/styles/DropDown.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -177,18 +148,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="628">
               <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/components/CartCount.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -307,10 +266,10 @@
         <option value="$PROJECT_DIR$/backend/datamodel.graphql" />
         <option value="$PROJECT_DIR$/frontend/components/CartItem.js" />
         <option value="$PROJECT_DIR$/frontend/components/RemoveFromCart.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Cart.js" />
         <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/frontend/components/Header.js" />
         <option value="$PROJECT_DIR$/frontend/components/Search.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Cart.js" />
         <option value="$PROJECT_DIR$/frontend/components/Charge.js" />
       </list>
     </option>
@@ -445,14 +404,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="46752000" />
-    </task>
-    <task id="LOCAL-00117" summary="Polish Permissions component">
-      <created>1543758971781</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1543758971781</updated>
+      <workItem from="1542679218152" duration="46829000" />
     </task>
     <task id="LOCAL-00118" summary="Store local changes to permissions">
       <created>1543760310291</created>
@@ -790,11 +742,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544315794775</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Add basic Charge component">
+      <created>1544374724125</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1544374724125</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99463000" />
+    <option name="totallyTimeSpent" value="99540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -839,7 +798,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Missing closing tag" />
     <MESSAGE value="Pass cartItem via prop and add propType required to CartItem component" />
     <MESSAGE value="Modify CURRENT_USER_QUERY to also return item (can do because of cart relationship with items)" />
     <MESSAGE value="Display price per item and quantity in cart" />
@@ -864,7 +822,8 @@
     <MESSAGE value="Implement SEARCH_ITEMS_QUERY" />
     <MESSAGE value="Add onChange handler to search" />
     <MESSAGE value="Finish search component adn restyle Header to allow page-width search bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish search component adn restyle Header to allow page-width search bar" />
+    <MESSAGE value="Add basic Charge component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add basic Charge component" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/components/Signup.js">
@@ -1210,16 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/styles/CartStyles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1298,10 +1247,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

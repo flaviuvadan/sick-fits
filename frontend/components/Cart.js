@@ -5,8 +5,9 @@ import CartStyles from './styles/CartStyles';
 import Supreme from './styles/Supreme';
 import CloseButton from './styles/CloseButton';
 import SickButton from './styles/SickButton';
-import User from '../components/User';
-import CartItem from '../components/CartItem';
+import User from './User';
+import Charge from './Charge';
+import CartItem from './CartItem';
 import calcTotalPrice from '../lib/calcTotalPrice';
 import formatMoney from '../lib/formatMoney';
 import { LOCAL_STATE_QUERY, TOGGLE_CART_MUTATION } from "../queries/queries";
@@ -39,10 +40,12 @@ const Cart = () => (
 							return <CartItem key={cartItem.id} cartItem={cartItem}/>
 						})}
 					</ul>
-					<footer>
-						<p>{formatMoney(calcTotalPrice(currentUser.cart))}</p>
-						<SickButton>Checkout</SickButton>
-					</footer>
+					<Charge>
+						<footer>
+							<p>{formatMoney(calcTotalPrice(currentUser.cart))}</p>
+							<SickButton>Checkout</SickButton>
+						</footer>
+					</Charge>
 				</CartStyles>
 			);
 		}}

@@ -14,7 +14,7 @@ class Charge extends React.Component {
 	render() {
 		return (
 			<User>
-				{({ data: { currentUser } }) => <p>Checkout</p>}
+				{({ data: { currentUser } }) => <p>{this.props.children}</p>}
 			</User>
 		)
 	}
