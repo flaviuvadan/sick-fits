@@ -5,6 +5,7 @@ const { randomBytes } = require('crypto');
 const { promisify } = require('util');
 const { transport, makeEmail } = require('../mail');
 const { hasPermission } = require('../utils');
+const stripe = require('../stripe');
 
 
 const ONE_YEAR = 1000 * 60 * 60 * 24 * 365;
@@ -450,8 +451,12 @@ const Mutation = {
 			}`);
 		// create Stripe charge
 		const amount = user.cart.reduce((total, cartItem) => total + cartItem.item.price * cartItem.quantity, 0);
+		const charge = await stripe.charges.create({
+			amount,
+			currency: 'USD',
+			source: args.token,
+		});
 		// convert cart items to order items
-		console.log(amount);
 		// create order
 		// clean up - clear users' cart/delete cart items from db
 		// return order to client
