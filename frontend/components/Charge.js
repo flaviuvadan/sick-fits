@@ -22,28 +22,39 @@ function totalItems(cart) {
 class Charge extends React.Component {
 	/**
 	 * Respond to token returns from Stripe
-	 * @param response
+	 * @param response - Stripe response
+	 * @param createOrder - createOrder mutation
 	 */
-	onToken = response => {
-		console.log(response);
+	onToken = (response, createOrder) => {
+		createOrder({
+			variables: {
+				token: response.id
+			},
+		}).catch(err => {
+			alert(err.message);
+		})
 	};
 
 	render() {
 		return (
 			<User>
 				{({ data: { currentUser } }) => (
-					<StripeCheckout
-						amount={calcTotalPrice(currentUser.cart)}
-						name="Sick Fits"
-						description={`Order of ${totalItems(currentUser.cart)} items`}
-						image={currentUser.cart[0].item && currentUser.cart[0].item.image}
-						stripeKey="pk_test_kMeWdXYUASgLL9oF8dI502Pu"
-						currency="USD"
-						email={currentUser.email}
-						token={response => this.onToken(response)}
-					>
-						{this.props.children}
-					</StripeCheckout>
+					<Mutation mutation={CREATE_ORDER_MUTATION} refetchQueries={[{ query: CURRENT_USER_QUERY }]}>
+						{(createOrder) => (
+							<StripeCheckout
+								amount={calcTotalPrice(currentUser.cart)}
+								name="Sick Fits"
+								description={`Order of ${totalItems(currentUser.cart)} items`}
+								image={currentUser.cart[0].item && currentUser.cart[0].item.image}
+								stripeKey="pk_test_kMeWdXYUASgLL9oF8dI502Pu"
+								currency="USD"
+								email={currentUser.email}
+								token={response => this.onToken(response, createOrder)}
+							>
+								{this.props.children}
+							</StripeCheckout>
+						)}
+					</Mutation>
 				)}
 			</User>
 		)

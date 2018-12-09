@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/schema.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Charge.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Charge.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,23 +65,23 @@
           <entry key="env" value="149" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="2253" />
-          <entry key="js" value="60152" />
+          <entry key="js" value="60609" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="7116" />
+          <entry key="txt" value="7160" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="89" />
-          <entry key="GraphQL" value="2199" />
+          <entry key="GraphQL" value="2206" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="59958" />
+          <entry key="JavaScript" value="60408" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="7620" />
+          <entry key="PLAIN_TEXT" value="7664" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -98,11 +97,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="182">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="453" column="28" selection-start-line="453" selection-start-column="28" selection-end-line="453" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="426" column="21" selection-start-line="426" selection-start-column="10" selection-end-line="426" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -119,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="263" column="38" selection-start-line="263" selection-start-column="38" selection-end-line="263" selection-end-column="38" />
+            <state relative-caret-position="658">
+              <caret line="283" column="34" selection-start-line="283" selection-start-column="13" selection-end-line="283" selection-end-column="34" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -128,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="630">
+              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -144,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/backend/datamodel.graphql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
-              <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -260,14 +259,14 @@
         <option value="$PROJECT_DIR$/frontend/components/CartCount.js" />
         <option value="$PROJECT_DIR$/frontend/components/CartItem.js" />
         <option value="$PROJECT_DIR$/frontend/components/RemoveFromCart.js" />
-        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/frontend/components/Header.js" />
         <option value="$PROJECT_DIR$/frontend/components/Search.js" />
         <option value="$PROJECT_DIR$/frontend/components/Cart.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Charge.js" />
         <option value="$PROJECT_DIR$/backend/datamodel.graphql" />
         <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
         <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
+        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Charge.js" />
       </list>
     </option>
   </component>
@@ -401,21 +400,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="48401000" />
-    </task>
-    <task id="LOCAL-00122" summary="Use updatePermissions as a callback after setState">
-      <created>1543796006928</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1543796006928</updated>
-    </task>
-    <task id="LOCAL-00123" summary="Perform a permissions check upon item deletion">
-      <created>1543796889974</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1543796889975</updated>
+      <workItem from="1542679218152" duration="48782000" />
     </task>
     <task id="LOCAL-00124" summary="Add basic cart component">
       <created>1543884204014</created>
@@ -746,11 +731,25 @@
       <option name="project" value="LOCAL" />
       <updated>1544375827378</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="Add createOrder mutation and start implementing">
+      <created>1544376379156</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1544376379156</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Add CREATE_ORDER_MUTATION">
+      <created>1544376469307</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1544376469307</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101112000" />
+    <option name="totallyTimeSpent" value="101493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -795,8 +794,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add styling to cart items and display final price in Cart" />
-    <MESSAGE value="Implement removeFromCart mutation" />
     <MESSAGE value="Add RemoveFromCart component" />
     <MESSAGE value="Add remove button to cart items" />
     <MESSAGE value="Add REMOVE_FROM_CART_MUTATION" />
@@ -820,7 +817,9 @@
     <MESSAGE value="Implement StripeCheckout" />
     <MESSAGE value="Add Stripe onToken function" />
     <MESSAGE value="Implement new types and deploy Prisma model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement new types and deploy Prisma model" />
+    <MESSAGE value="Add createOrder mutation and start implementing" />
+    <MESSAGE value="Add CREATE_ORDER_MUTATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CREATE_ORDER_MUTATION" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/components/Signup.js">
@@ -1186,16 +1185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="263" column="38" selection-start-line="263" selection-start-column="38" selection-end-line="263" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/styles/DropDown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1233,20 +1222,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/datamodel.graphql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
-          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1259,8 +1238,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/resolvers/Mutation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="453" column="28" selection-start-line="453" selection-start-column="28" selection-end-line="453" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="426" column="21" selection-start-line="426" selection-start-column="10" selection-end-line="426" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="283" column="34" selection-start-line="283" selection-start-column="13" selection-end-line="283" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
