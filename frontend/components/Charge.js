@@ -25,14 +25,14 @@ class Charge extends React.Component {
 	 * @param response - Stripe response
 	 * @param createOrder - createOrder mutation
 	 */
-	onToken = (response, createOrder) => {
-		createOrder({
+	onToken = async (response, createOrder) => {
+		await createOrder({
 			variables: {
 				token: response.id
 			},
 		}).catch(err => {
 			alert(err.message);
-		})
+		});
 	};
 
 	render() {
@@ -45,7 +45,7 @@ class Charge extends React.Component {
 								amount={calcTotalPrice(currentUser.cart)}
 								name="Sick Fits"
 								description={`Order of ${totalItems(currentUser.cart)} items`}
-								image={currentUser.cart[0].item && currentUser.cart[0].item.image}
+								image={currentUser.cart.length && currentUser.cart[0].item && currentUser.cart[0].item.image}
 								stripeKey="pk_test_kMeWdXYUASgLL9oF8dI502Pu"
 								currency="USD"
 								email={currentUser.email}

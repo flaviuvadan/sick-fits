@@ -446,6 +446,7 @@ const Mutation = {
 						price 
 						description 
 						image 
+						largeImage
 					} 
 				}
 			}`);
@@ -471,9 +472,7 @@ const Mutation = {
 				quantity: cartItem.quantity,
 				user: {
 					connect: {
-						id: {
-							id: user.id,
-						}
+						id: user.id,
 					}
 				}
 			};
