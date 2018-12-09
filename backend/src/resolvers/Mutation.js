@@ -455,6 +455,7 @@ const Mutation = {
 			amount,
 			currency: 'USD',
 			source: args.token,
+			// could have description along with this; everything is in the Stripe docs
 		});
 		// convert cart items to order items
 		// create order
