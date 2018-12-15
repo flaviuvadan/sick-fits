@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/__tests__/sample.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/__tests__/formatMoney.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,7 +34,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="33" />
           <entry key="graphqls" value="6" />
-          <entry key="js" value="232" />
+          <entry key="js" value="234" />
           <entry key="json" value="7" />
           <entry key="jsx" value="1" />
           <entry key="md" value="6" />
@@ -51,7 +51,7 @@
           <entry key="GraphQL" value="31" />
           <entry key="GraphQL Schema" value="6" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="232" />
+          <entry key="JavaScript" value="234" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
@@ -67,11 +67,11 @@
           <entry key="flow" value="2" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="2473" />
-          <entry key="js" value="66488" />
+          <entry key="js" value="67142" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="7993" />
+          <entry key="txt" value="8014" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -81,9 +81,9 @@
           <entry key="GraphQL" value="2444" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="66269" />
+          <entry key="JavaScript" value="66923" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="8497" />
+          <entry key="PLAIN_TEXT" value="8518" />
           <entry key="Scratch" value="2" />
           <entry key="YAML" value="136" />
         </counts>
@@ -100,11 +100,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="182">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/__tests__/sample.test.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/lib/formatMoney.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/__tests__/formatMoney.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -165,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/components/UpdateItem.js" />
         <option value="$PROJECT_DIR$/frontend/pages/item.js" />
         <option value="$PROJECT_DIR$/frontend/components/SingleItem.js" />
         <option value="$PROJECT_DIR$/frontend/pages/items.js" />
@@ -216,6 +224,7 @@
         <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
         <option value="$PROJECT_DIR$/frontend/components/Orders.js" />
         <option value="$PROJECT_DIR$/frontend/__tests__/sample.test.js" />
+        <option value="$PROJECT_DIR$/frontend/__tests__/formatMoney.test.js" />
       </list>
     </option>
   </component>
@@ -271,6 +280,18 @@
             </path>
             <path>
               <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphQL Schemas" type="390a5855:JSGraphQLSchemaDirectoryNode" />
             </path>
           </expand>
@@ -318,14 +339,7 @@
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
       <workItem from="1542679218152" duration="53826000" />
-      <workItem from="1544838954708" duration="2067000" />
-    </task>
-    <task id="LOCAL-00147" summary="Implement removeFromCart mutation">
-      <created>1544290165223</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1544290165223</updated>
+      <workItem from="1544838954708" duration="2775000" />
     </task>
     <task id="LOCAL-00148" summary="Add RemoveFromCart component">
       <created>1544290360025</created>
@@ -663,11 +677,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544839896037</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="Add sample test file">
+      <created>1544896808361</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1544896808361</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108604000" />
+    <option name="totallyTimeSpent" value="109312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -712,7 +733,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add CREATE_ORDER_MUTATION" />
     <MESSAGE value="Add charge mutation in component" />
     <MESSAGE value="Charge customers using Stripe" />
     <MESSAGE value="Charge customers using Stripe and test" />
@@ -737,7 +757,8 @@
     <MESSAGE value="Add orders query" />
     <MESSAGE value="Fix backend bug - orderBy" />
     <MESSAGE value="Finish up orders page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish up orders page" />
+    <MESSAGE value="Add sample test file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add sample test file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -752,16 +773,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/src/mail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1029,13 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/lib/formatMoney.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Order.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -1160,8 +1164,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/__tests__/sample.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/lib/formatMoney.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/formatMoney.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
