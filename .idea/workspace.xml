@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/__tests__/Pagination.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/__tests__/Nav.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/__tests__/Nav.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/__tests__/Pagination.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/__tests__/Pagination.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +34,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="33" />
           <entry key="graphqls" value="6" />
-          <entry key="js" value="256" />
+          <entry key="js" value="257" />
           <entry key="json" value="7" />
           <entry key="jsx" value="1" />
           <entry key="md" value="6" />
@@ -54,7 +52,7 @@
           <entry key="GraphQL" value="31" />
           <entry key="GraphQL Schema" value="6" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="256" />
+          <entry key="JavaScript" value="257" />
           <entry key="Jest Snapshot" value="5" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="7" />
@@ -71,11 +69,11 @@
           <entry key="flow" value="2" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="2473" />
-          <entry key="js" value="75626" />
+          <entry key="js" value="75749" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="8251" />
+          <entry key="txt" value="8287" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -85,9 +83,9 @@
           <entry key="GraphQL" value="2444" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="75407" />
+          <entry key="JavaScript" value="75530" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="8755" />
+          <entry key="PLAIN_TEXT" value="8791" />
           <entry key="Scratch" value="2" />
           <entry key="YAML" value="136" />
         </counts>
@@ -107,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/__tests__/Pagination.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="69" column="62" lean-forward="true" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+            <state relative-caret-position="519">
+              <caret line="96" column="75" lean-forward="true" selection-start-line="96" selection-start-column="75" selection-end-line="96" selection-end-column="75" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -128,11 +126,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/components/Pagination.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="229">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="54" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -305,8 +312,8 @@
         <option value="$PROJECT_DIR$/frontend/__tests__/Nav.js" />
         <option value="$PROJECT_DIR$/frontend/components/Nav.js" />
         <option value="$PROJECT_DIR$/frontend/__tests__/Nav.test.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Pagination.js" />
         <option value="$PROJECT_DIR$/frontend/__tests__/Pagination.test.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Pagination.js" />
       </list>
     </option>
   </component>
@@ -434,14 +441,7 @@
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
       <workItem from="1542679218152" duration="53826000" />
-      <workItem from="1544838954708" duration="11862000" />
-    </task>
-    <task id="LOCAL-00157" summary="Add CSS animation for notifying users of item additions">
-      <created>1544309181314</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1544309181314</updated>
+      <workItem from="1544838954708" duration="12303000" />
     </task>
     <task id="LOCAL-00158" summary="Make Item not a requirement on the datamodel and re-deploy Prisma">
       <created>1544309383929</created>
@@ -779,11 +779,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544912916821</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="Start implementing pagination tests">
+      <created>1544917514618</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1544917514618</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118399000" />
+    <option name="totallyTimeSpent" value="118840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -828,7 +835,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add skeleton Order component" />
     <MESSAGE value="Implement basic Order, take props.id" />
     <MESSAGE value="Add future require imports" />
     <MESSAGE value="Implement order query" />
@@ -853,7 +859,8 @@
     <MESSAGE value="Add SignInWarning tests" />
     <MESSAGE value="Add Nav tests" />
     <MESSAGE value="Missing semi-colon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Missing semi-colon" />
+    <MESSAGE value="Start implementing pagination tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start implementing pagination tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1024,9 +1031,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/config.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1255,10 +1259,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Pagination.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="229">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="54" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -1267,8 +1278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/__tests__/Pagination.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="69" column="62" lean-forward="true" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+        <state relative-caret-position="519">
+          <caret line="96" column="75" lean-forward="true" selection-start-line="96" selection-start-column="75" selection-end-line="96" selection-end-column="75" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
