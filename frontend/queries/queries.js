@@ -298,3 +298,19 @@ export const CREATE_ORDER_MUTATION = gql`
 		}
 	}
 `;
+
+export const ORDER_QUERY = gql`
+	query ORDER_QUERY (
+    $id: ID!
+    ) {
+		order(
+			id: $id
+		) {
+			id
+			items
+			total
+			user
+			charge
+		}
+	}
+`;

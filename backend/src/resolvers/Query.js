@@ -52,7 +52,35 @@ const Query = {
 		hasPermission(ctx.request.user, PERMISSIONS);
 		// query users
 		return await ctx.db.query.users({}, info);
-	}
+	},
+
+	/**
+	 * Get a single order
+	 * @param parent
+	 * @param args - arguments of signup
+	 * @param ctx - context of request
+	 * @param info - additional info, actual query coming from client side
+	 * @returns {Promise<void>}
+	 */
+	async order(parent, args, ctx, info) {
+		// make sure logged in
+		isLoggedIn(ctx);
+
+		// query current order
+		const order = await ctx.db.query.db.order({
+			where: {
+				id: args.id,
+			},
+		}, info);
+
+		// check if permissions to see order
+		const ownsOrder = order.user.id === ctx.request.userId;
+		const hasPermissionToSeeOrder = ctx.request.user.permissions.includes('ADMIN');
+		if (!ownsOrder || !hasPermissionToSeeOrder) throw new Error('Cannot access order');
+
+		// return order
+		return order;
+	},
 };
 
 /**
