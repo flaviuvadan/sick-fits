@@ -80,7 +80,6 @@ describe('<Pagination/>', () => {
 		await wait();
 		wrapper.update();
 		expect(wrapper.find('a.prev').prop('aria-disabled')).toEqual(false);
-		wrapper.update();
 		expect(wrapper.find('a.next').prop('aria-disabled')).toEqual(false);
 	});
 
@@ -93,7 +92,6 @@ describe('<Pagination/>', () => {
 		await wait();
 		wrapper.update();
 		expect(wrapper.find('a.prev').prop('aria-disabled')).toEqual(false);
-		wrapper.update();
 		expect(wrapper.find('a.next').prop('aria-disabled')).toEqual(true);
 	});
 });

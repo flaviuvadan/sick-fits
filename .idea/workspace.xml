@@ -73,7 +73,7 @@
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="8287" />
+          <entry key="txt" value="8317" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -85,7 +85,7 @@
           <entry key="JSON" value="110" />
           <entry key="JavaScript" value="75530" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="8791" />
+          <entry key="PLAIN_TEXT" value="8821" />
           <entry key="Scratch" value="2" />
           <entry key="YAML" value="136" />
         </counts>
@@ -105,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/__tests__/Pagination.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="96" column="75" lean-forward="true" selection-start-line="96" selection-start-column="75" selection-end-line="96" selection-end-column="75" />
+            <state relative-caret-position="504">
+              <caret line="93" column="76" lean-forward="true" selection-start-line="93" selection-start-column="76" selection-end-line="93" selection-end-column="76" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -312,8 +312,8 @@
         <option value="$PROJECT_DIR$/frontend/__tests__/Nav.js" />
         <option value="$PROJECT_DIR$/frontend/components/Nav.js" />
         <option value="$PROJECT_DIR$/frontend/__tests__/Nav.test.js" />
-        <option value="$PROJECT_DIR$/frontend/__tests__/Pagination.test.js" />
         <option value="$PROJECT_DIR$/frontend/components/Pagination.js" />
+        <option value="$PROJECT_DIR$/frontend/__tests__/Pagination.test.js" />
       </list>
     </option>
   </component>
@@ -441,14 +441,7 @@
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
       <workItem from="1542679218152" duration="53826000" />
-      <workItem from="1544838954708" duration="12303000" />
-    </task>
-    <task id="LOCAL-00158" summary="Make Item not a requirement on the datamodel and re-deploy Prisma">
-      <created>1544309383929</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1544309383929</updated>
+      <workItem from="1544838954708" duration="12343000" />
     </task>
     <task id="LOCAL-00159" summary="Code reformatting">
       <created>1544310029168</created>
@@ -786,11 +779,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544917514618</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="Implement tests for pagination">
+      <created>1544917945293</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1544917945293</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118840000" />
+    <option name="totallyTimeSpent" value="118880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -835,7 +835,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement basic Order, take props.id" />
     <MESSAGE value="Add future require imports" />
     <MESSAGE value="Implement order query" />
     <MESSAGE value="Extend ORDER_QUERY" />
@@ -860,7 +859,8 @@
     <MESSAGE value="Add Nav tests" />
     <MESSAGE value="Missing semi-colon" />
     <MESSAGE value="Start implementing pagination tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start implementing pagination tests" />
+    <MESSAGE value="Implement tests for pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement tests for pagination" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1278,8 +1278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/__tests__/Pagination.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="96" column="75" lean-forward="true" selection-start-line="96" selection-start-column="75" selection-end-line="96" selection-end-column="75" />
+        <state relative-caret-position="504">
+          <caret line="93" column="76" lean-forward="true" selection-start-line="93" selection-start-column="76" selection-end-line="93" selection-end-column="76" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
