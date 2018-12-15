@@ -26,6 +26,7 @@ type Query {
     currentUser: User
     users: [User]!
     order(id: ID!): Order
+    orders(where: OrderWhereInput): [Order]!
 }
 
 type User {

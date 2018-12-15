@@ -81,6 +81,27 @@ const Query = {
 		// return order
 		return order;
 	},
+
+	/**
+	 * Get orders
+	 * @param parent
+	 * @param args - arguments of signup
+	 * @param ctx - context of request
+	 * @param info - additional info, actual query coming from client side
+	 * @returns {Promise<void>}
+	 */
+	async orders(parent, args, ctx, info) {
+		isLoggedIn(ctx);
+		const { userId } = ctx.request;
+
+		return ctx.db.query.orders({
+			where: {
+				user: {
+					id: userId,
+				}
+			}
+		}, info);
+	}
 };
 
 /**

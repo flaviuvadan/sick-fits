@@ -324,3 +324,23 @@ export const ORDER_QUERY = gql`
 		}
 	}
 `;
+
+export const ORDERS_QUERY = gql`
+	query ORDERS_QUERY {
+		orders(
+			OrderBy: createdAt_DESC
+		) {
+			id
+			total
+			createdAt
+			item {
+				id
+				title
+				price
+				description
+				quantity
+				image
+			}
+		}
+	}
+`;
