@@ -333,7 +333,7 @@ export const ORDERS_QUERY = gql`
 			id
 			total
 			createdAt
-			item {
+			items {
 				id
 				title
 				price
