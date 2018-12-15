@@ -26,13 +26,22 @@ class Charge extends React.Component {
 	 * @param createOrder - createOrder mutation
 	 */
 	onToken = async (response, createOrder) => {
-		await createOrder({
+		NProgress.start();
+		const order = await createOrder({
 			variables: {
 				token: response.id
 			},
 		}).catch(err => {
 			alert(err.message);
 		});
+
+		// transfer to order page
+		Router.push({
+			pathname: '/order',
+			query: {
+				id: order.data.createOrder.id,
+			}
+		})
 	};
 
 	render() {
