@@ -99,7 +99,6 @@ describe('<Nav/>', () => {
 		await wait();
 		wrapper.update();
 		const nav = wrapper.find('ul[data-test="nav"]');
-		console.log(nav.debug());
 		expect(nav.contains('Shop')).toBe(true);
 		expect(nav.contains('Sell')).toBe(true);
 		expect(nav.contains('Orders')).toBe(true);
