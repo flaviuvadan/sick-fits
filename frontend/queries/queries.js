@@ -307,10 +307,20 @@ export const ORDER_QUERY = gql`
 			id: $id
 		) {
 			id
-			items
+			items {
+				id 
+				title
+				description
+				price
+				image
+				quantity
+			}
 			total
-			user
+			user {
+				id
+			}
 			charge
+			createdAt
 		}
 	}
 `;
