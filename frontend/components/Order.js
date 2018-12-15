@@ -23,11 +23,52 @@ class Order extends Component {
 				{({ data, error, loading }) => {
 					if (error) return <Error error={error}/>;
 					if (loading) return <p>Loading...</p>;
-					console.log(data)
+
+					const order = data.order;
+
 					return (
-						<div>
-							<p>Order ID: {this.props.id}</p>
-						</div>
+						<OrderStyles>
+							<Head>
+								<title>Sick Fits | Order</title>
+							</Head>
+							<p>
+								<span>Order ID: </span>
+								<span>{this.props.id}</span>
+							</p>
+							<p>
+								<span>Charge: </span>
+								<span>{order.charge}</span>
+							</p>
+							<p>
+								<span>Date: </span>
+								<span>{format(order.createdAt, 'MMMM d, YYYY h:mm')}</span>
+							</p>
+							<p>
+								<span>Order total: </span>
+								<span>{formatMoney(order.total)}</span>
+							</p>
+							<p>
+								<span>Item count: </span>
+								<span>{order.items.length}</span>
+							</p>
+							<div className="items">
+								{order.items.map(item => {
+									// this should really be in its own component
+									return (
+										<div className="order-item" key={item.id}>
+											<img src={item.image} alt={item.title}/>
+											<div className="item-details">
+												<h2>{item.title}</h2>
+												<p>Description: {item.description}</p>
+												<p>Qty: {item.quantity}</p>
+												<p>Each: {formatMoney(item.price)}</p>
+												<p>Subtotal: {formatMoney(item.price * item.quantity)}</p>
+											</div>
+										</div>
+									)
+								})}
+							</div>
+						</OrderStyles>
 					);
 				}}
 			</Query>
