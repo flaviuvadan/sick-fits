@@ -67,7 +67,7 @@ const Query = {
 		isLoggedIn(ctx);
 
 		// query current order
-		const order = await ctx.db.query.db.order({
+		const order = await ctx.db.query.order({
 			where: {
 				id: args.id,
 			},

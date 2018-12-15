@@ -17,13 +17,13 @@ class Order extends Component {
 
 	render() {
 		return (
-			<Query query={ORDER_QUERY} varialbes={{
+			<Query query={ORDER_QUERY} variables={{
 				id: this.props.id,
 			}}>
 				{({ data, error, loading }) => {
 					if (error) return <Error error={error}/>;
 					if (loading) return <p>Loading...</p>;
-
+					console.log(data)
 					return (
 						<div>
 							<p>Order ID: {this.props.id}</p>
