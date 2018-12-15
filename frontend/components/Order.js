@@ -7,6 +7,7 @@ import Head from 'next/head';
 import formatMoney from '../lib/formatMoney';
 import Error from './ErrorMessage';
 import OrderStyles from './styles/OrderItemStyles';
+import { ORDER_QUERY } from "../queries/queries";
 
 
 class Order extends Component {
@@ -16,9 +17,20 @@ class Order extends Component {
 
 	render() {
 		return (
-			<div>
-				<p>Order ID: {this.props.id}</p>
-			</div>
+			<Query query={ORDER_QUERY} varialbes={{
+				id: this.props.id,
+			}}>
+				{({ data, error, loading }) => {
+					if (error) return <Error error={error}/>;
+					if (loading) return <p>Loading...</p>;
+
+					return (
+						<div>
+							<p>Order ID: {this.props.id}</p>
+						</div>
+					);
+				}}
+			</Query>
 		);
 	}
 }
