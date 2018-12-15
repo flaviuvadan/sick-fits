@@ -1,5 +1,4 @@
 import { mount } from 'enzyme';
-import toJSON from 'enzyme-to-json';
 import wait from 'waait';
 import SignInWarning from '../components/SignInWarning';
 import { CURRENT_USER_QUERY } from "../queries/queries";
