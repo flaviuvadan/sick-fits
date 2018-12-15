@@ -54,9 +54,9 @@ describe('<SingleItem/>', () => {
 					errors: [
 						{
 							message: 'Item not found',
-						}
-					]
-				}
+						},
+					],
+				},
 			}
 		];
 		const wrapper = mount(

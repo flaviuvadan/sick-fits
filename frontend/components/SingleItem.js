@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Query } from 'react-apollo';
 import styled from 'styled-components';
 import Head from 'next/head';
-
 import DisplayError from '../components/ErrorMessage';
 import { ITEM_QUERY } from '../queries/queries';
 
