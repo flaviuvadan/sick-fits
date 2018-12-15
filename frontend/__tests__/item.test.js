@@ -1,5 +1,6 @@
 // shallow render top-level component, do not go to children components because they have individual tests
 import { shallow } from 'enzyme';
+import toJSON from 'enzyme-to-json';
 import Item from '../components/Item';
 
 const fakeItem = {
@@ -14,6 +15,12 @@ const fakeItem = {
 // can also separate the it()s in describe() into multiple tests for checking different component parts
 // e.g PriceTag, Title a, etc.
 describe('<Item/>', () => {
+	it('renders and matches the snapshot', () => {
+		const wrapper = shallow(<Item item={fakeItem}/>);
+		// toJSON cleans up the snapshot from the enzyme-specific syntax
+		expect(toJSON(wrapper)).toMatchSnapshot();
+	});
+
 	it('renders and displays properly', () => {
 		const wrapper = shallow(<Item item={fakeItem}/>);
 		// to display the full wrapper HTML component, use wrapper.debug()

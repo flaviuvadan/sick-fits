@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/__tests__/item.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/__tests__/item.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/__tests__/item.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,6 +40,7 @@
           <entry key="prisma" value="2" />
           <entry key="rnc" value="2" />
           <entry key="sample" value="1" />
+          <entry key="snap" value="2" />
           <entry key="ts" value="5" />
           <entry key="yml" value="4" />
         </counts>
@@ -52,6 +52,7 @@
           <entry key="GraphQL Schema" value="6" />
           <entry key="JSON" value="7" />
           <entry key="JavaScript" value="238" />
+          <entry key="Jest Snapshot" value="2" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
@@ -67,11 +68,11 @@
           <entry key="flow" value="2" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="2473" />
-          <entry key="js" value="70023" />
+          <entry key="js" value="70304" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="8057" />
+          <entry key="txt" value="8086" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -81,9 +82,9 @@
           <entry key="GraphQL" value="2444" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="69804" />
+          <entry key="JavaScript" value="70085" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="8561" />
+          <entry key="PLAIN_TEXT" value="8590" />
           <entry key="Scratch" value="2" />
           <entry key="YAML" value="136" />
         </counts>
@@ -103,11 +104,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/__tests__/item.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+            <state relative-caret-position="199">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/__tests__/__snapshots__/item.test.js.snap">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -303,6 +313,13 @@
               <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
               <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="__snapshots__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,14 +377,7 @@
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
       <workItem from="1542679218152" duration="53826000" />
-      <workItem from="1544838954708" duration="5178000" />
-    </task>
-    <task id="LOCAL-00150" summary="Add REMOVE_FROM_CART_MUTATION">
-      <created>1544290534522</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1544290534522</updated>
+      <workItem from="1544838954708" duration="5898000" />
     </task>
     <task id="LOCAL-00151" summary="Fix REMOVE_FROM_CART_MUTATION and add functionality to remove item">
       <created>1544290972761</created>
@@ -705,17 +715,24 @@
       <option name="project" value="LOCAL" />
       <updated>1544898674310</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="Add Item tests">
+      <created>1544899876657</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1544899876657</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111715000" />
+    <option name="totallyTimeSpent" value="112435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4960396" visible="true" weight="0.11288605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4960396" visible="true" weight="0.11288605" />
       <window_info id="Favorites" order="1" sideWeight="0.5049505" side_tool="true" weight="0.1348078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
@@ -727,7 +744,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32920355" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34554455" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34554455" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32871288" />
       <window_info anchor="bottom" id="GraphQL" order="13" weight="0.3029703" />
@@ -754,7 +771,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Charge customers using Stripe and test" />
     <MESSAGE value="Clarify vars passed to Stripe" />
     <MESSAGE value="Finish implementing createOrder" />
     <MESSAGE value="Finish loop of order checkout" />
@@ -779,7 +795,8 @@
     <MESSAGE value="Add sample test file" />
     <MESSAGE value="Add formatMoney tests" />
     <MESSAGE value="Add mock learning test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add mock learning test" />
+    <MESSAGE value="Add Item tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Item tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,16 +811,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1191,10 +1198,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/__snapshots__/item.test.js.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/__tests__/item.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        <state relative-caret-position="199">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
