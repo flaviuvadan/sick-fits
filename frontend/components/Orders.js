@@ -9,6 +9,12 @@ import Error from '../components/ErrorMessage';
 import { ORDERS_QUERY } from "../queries/queries";
 
 
+const OrdersList = styled.ul`
+	display: grid;
+	grid-gap: 4rem;
+	grid-template-columns: repeat(auto-fit, minimax(40%, 1fr));
+`;
+
 class Orders extends Component {
 	render() {
 		return (
@@ -17,10 +23,38 @@ class Orders extends Component {
 					if (error) return <Error error={error}/>;
 					if (loading) return <p>Loading...</p>;
 
-					console.log(orders);
 					return (
 						<div>
-							<p>Order list</p>
+							<h2>You have {orders.length} orders</h2>
+							<OrdersList>
+								{orders.map(order => {
+									return (
+										<OrderItemStyles key={order.id}>
+											<Link href={{
+												pathname: '/order',
+												query: {
+													id: order.id,
+												}
+											}}>
+												<a>
+													<div className="order-meta">
+														<p>{order.items.reduce((total, item) => total + item.quantity, 0)} items</p>
+														<p>{order.items.length} products</p>
+														<p>{formatDistance(order.createdAt, new Date())} ago</p>
+														<p>{formatMoney(order.total)} order total</p>
+													</div>
+													<div className="images">
+														{order.items.map(item => {
+															return <img key={item.id} src={item.image}
+																		alt={item.title}/>;
+														})}
+													</div>
+												</a>
+											</Link>
+										</OrderItemStyles>
+									)
+								})}
+							</OrdersList>
 						</div>
 					)
 				}}
