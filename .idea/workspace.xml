@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Add SignInWarning tests">
-      <change afterPath="$PROJECT_DIR$/frontend/__tests__/Nav.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/__tests__/__snapshots__/Nav.test.js.snap" afterDir="false" />
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="Add Nav tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/__tests__/SignInWarning.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/__tests__/SignInWarning.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/__tests__/Nav.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/__tests__/Nav.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,11 +69,11 @@
           <entry key="flow" value="2" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="2473" />
-          <entry key="js" value="74309" />
+          <entry key="js" value="74312" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="8219" />
+          <entry key="txt" value="8232" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -86,9 +83,9 @@
           <entry key="GraphQL" value="2444" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="74090" />
+          <entry key="JavaScript" value="74093" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="8723" />
+          <entry key="PLAIN_TEXT" value="8736" />
           <entry key="Scratch" value="2" />
           <entry key="YAML" value="136" />
         </counts>
@@ -144,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/__tests__/Nav.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="107" column="46" lean-forward="true" selection-start-line="107" selection-start-column="46" selection-end-line="107" selection-end-column="46" />
+            <state relative-caret-position="534">
+              <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -450,14 +447,7 @@
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
       <workItem from="1542679218152" duration="53826000" />
-      <workItem from="1544838954708" duration="10573000" />
-    </task>
-    <task id="LOCAL-00155" summary="Use CartCount component in Nav">
-      <created>1544308147053</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1544308147053</updated>
+      <workItem from="1544838954708" duration="10613000" />
     </task>
     <task id="LOCAL-00156" summary="Reduce number of cartItems to get total quantity">
       <created>1544308358373</created>
@@ -795,11 +785,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544911490557</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="Add Nav tests">
+      <created>1544912895245</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1544912895248</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117110000" />
+    <option name="totallyTimeSpent" value="117150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -844,7 +841,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add basic order page" />
     <MESSAGE value="Route to orders page once checkout completed" />
     <MESSAGE value="Add skeleton Order component" />
     <MESSAGE value="Implement basic Order, take props.id" />
@@ -869,7 +865,8 @@
     <MESSAGE value="Add snapshot testing for CartCount component" />
     <MESSAGE value="Add SingleItem tests" />
     <MESSAGE value="Add SignInWarning tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SignInWarning tests" />
+    <MESSAGE value="Add Nav tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Nav tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1286,8 +1283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/__tests__/Nav.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="107" column="46" lean-forward="true" selection-start-line="107" selection-start-column="46" selection-end-line="107" selection-end-column="46" />
+        <state relative-caret-position="534">
+          <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

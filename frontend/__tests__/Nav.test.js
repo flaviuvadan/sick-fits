@@ -106,5 +106,5 @@ describe('<Nav/>', () => {
 		expect(nav.contains('Account')).toBe(true);
 		expect(nav.contains('My Cart')).toBe(true);
 		expect(toJSON(nav)).toMatchSnapshot();
-	})
+	});
 });
