@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/components/Order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Order.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,11 +65,11 @@
           <entry key="env" value="149" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="2253" />
-          <entry key="js" value="62000" />
+          <entry key="js" value="62443" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="7498" />
+          <entry key="txt" value="7583" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -79,9 +79,9 @@
           <entry key="GraphQL" value="2206" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="61799" />
+          <entry key="JavaScript" value="62242" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="8002" />
+          <entry key="PLAIN_TEXT" value="8087" />
           <entry key="YAML" value="136" />
         </counts>
       </usages-collector>
@@ -98,22 +98,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="182">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/pages/order.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="105">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -121,9 +109,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/components/Order.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#177#206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -255,8 +251,8 @@
         <option value="$PROJECT_DIR$/backend/src/resolvers/Mutation.js" />
         <option value="$PROJECT_DIR$/frontend/components/Cart.js" />
         <option value="$PROJECT_DIR$/frontend/components/Charge.js" />
-        <option value="$PROJECT_DIR$/frontend/components/Order.js" />
         <option value="$PROJECT_DIR$/frontend/pages/order.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Order.js" />
       </list>
     </option>
   </component>
@@ -390,21 +386,7 @@
       <workItem from="1542497283484" duration="2012000" />
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
-      <workItem from="1542679218152" duration="51207000" />
-    </task>
-    <task id="LOCAL-00132" summary="Implement addToCart functionality">
-      <created>1543886537628</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1543886537628</updated>
-    </task>
-    <task id="LOCAL-00133" summary="Implement AddToCart class and replace in Item">
-      <created>1543886693110</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1543886693110</updated>
+      <workItem from="1542679218152" duration="51421000" />
     </task>
     <task id="LOCAL-00134" summary="Implement ADD_TO_CART_MUTATION">
       <created>1543886790971</created>
@@ -735,11 +717,25 @@
       <option name="project" value="LOCAL" />
       <updated>1544836230091</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="Add skeleton Order component">
+      <created>1544836322970</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1544836322971</updated>
+    </task>
+    <task id="LOCAL-00182" summary="Implement basic Order, take props.id">
+      <created>1544836450559</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1544836450559</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103918000" />
+    <option name="totallyTimeSpent" value="104132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -784,8 +780,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add CSS animation for notifying users of item additions" />
-    <MESSAGE value="Make Item not a requirement on the datamodel and re-deploy Prisma" />
     <MESSAGE value="Code reformatting" />
     <MESSAGE value="Refactor Cart to avoid nesting too many queries - implement Composed" />
     <MESSAGE value="Implement basic AutoComplete" />
@@ -809,7 +803,9 @@
     <MESSAGE value="Add cart check - do not render checkout if empty cart" />
     <MESSAGE value="Add basic order page" />
     <MESSAGE value="Route to orders page once checkout completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Route to orders page once checkout completed" />
+    <MESSAGE value="Add skeleton Order component" />
+    <MESSAGE value="Implement basic Order, take props.id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement basic Order, take props.id" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/pages/index.js">
@@ -1235,15 +1231,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Order.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/pages/order.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#177#206#0" expanded="true" />
           </folding>
         </state>
       </provider>
