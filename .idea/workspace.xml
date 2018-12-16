@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/__tests__/Pagination.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/__tests__/Pagination.test.js" afterDir="false" />
-    </list>
+    <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -73,7 +70,7 @@
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="8317" />
+          <entry key="txt" value="8350" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -85,7 +82,7 @@
           <entry key="JSON" value="110" />
           <entry key="JavaScript" value="75530" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="8821" />
+          <entry key="PLAIN_TEXT" value="8854" />
           <entry key="Scratch" value="2" />
           <entry key="YAML" value="136" />
         </counts>
@@ -105,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/__tests__/Pagination.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="93" column="76" lean-forward="true" selection-start-line="93" selection-start-column="76" selection-end-line="93" selection-end-column="76" />
+            <state relative-caret-position="549">
+              <caret line="96" column="3" lean-forward="true" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -441,14 +438,7 @@
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
       <workItem from="1542679218152" duration="53826000" />
-      <workItem from="1544838954708" duration="12343000" />
-    </task>
-    <task id="LOCAL-00159" summary="Code reformatting">
-      <created>1544310029168</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1544310029168</updated>
+      <workItem from="1544838954708" duration="12521000" />
     </task>
     <task id="LOCAL-00160" summary="Refactor Cart to avoid nesting too many queries - implement Composed">
       <created>1544311677442</created>
@@ -786,11 +776,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544917945293</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="Remove unnecessary updates">
+      <created>1544918010358</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1544918010358</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118880000" />
+    <option name="totallyTimeSpent" value="119058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -835,7 +832,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add future require imports" />
     <MESSAGE value="Implement order query" />
     <MESSAGE value="Extend ORDER_QUERY" />
     <MESSAGE value="Start adding query to Order" />
@@ -860,7 +856,8 @@
     <MESSAGE value="Missing semi-colon" />
     <MESSAGE value="Start implementing pagination tests" />
     <MESSAGE value="Implement tests for pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement tests for pagination" />
+    <MESSAGE value="Remove unnecessary updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1278,8 +1275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/__tests__/Pagination.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="93" column="76" lean-forward="true" selection-start-line="93" selection-start-column="76" selection-end-line="93" selection-end-column="76" />
+        <state relative-caret-position="549">
+          <caret line="96" column="3" lean-forward="true" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
