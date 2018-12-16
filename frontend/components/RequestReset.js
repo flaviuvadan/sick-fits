@@ -22,10 +22,9 @@ class RequestReset extends Component {
 			<Mutation mutation={REQUEST_RESET_MUTATION} variables={this.state}>
 				{(reset, { error, loading, called }) => {
 					return (
-						<Form method="post" onSubmit={async e => {
+						<Form data-test="form" method="post" onSubmit={async e => {
 							e.preventDefault();
-							const success = await reset();
-
+							await reset();
 							this.setState({ email: '' });
 						}}>
 							<fieldset disabled={loading} aria-busy={loading}>
