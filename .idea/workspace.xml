@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/__tests__/CreateItem.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/__tests__/__snapshots__/CreateItem.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/__tests__/Signup.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/__tests__/__snapshots__/Signup.test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/CreateItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/CreateItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/queries/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/queries/queries.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +36,7 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="33" />
           <entry key="graphqls" value="6" />
-          <entry key="js" value="265" />
+          <entry key="js" value="271" />
           <entry key="json" value="7" />
           <entry key="jsx" value="1" />
           <entry key="md" value="6" />
@@ -54,7 +54,7 @@
           <entry key="GraphQL" value="31" />
           <entry key="GraphQL Schema" value="6" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="265" />
+          <entry key="JavaScript" value="271" />
           <entry key="Jest Snapshot" value="7" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="7" />
@@ -71,23 +71,23 @@
           <entry key="flow" value="2" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="2473" />
-          <entry key="js" value="79257" />
+          <entry key="js" value="80653" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="8396" />
+          <entry key="txt" value="8424" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="89" />
-          <entry key="GraphQL" value="2444" />
+          <entry key="GraphQL" value="2446" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="79038" />
+          <entry key="JavaScript" value="80432" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="8900" />
+          <entry key="PLAIN_TEXT" value="8928" />
           <entry key="Scratch" value="2" />
           <entry key="YAML" value="136" />
         </counts>
@@ -105,10 +105,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="182">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/__tests__/CreateItem.test.js">
+        <entry file="file://$PROJECT_DIR$/frontend/__tests__/Signup.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="162" column="72" lean-forward="true" selection-start-line="162" selection-start-column="72" selection-end-line="162" selection-end-column="72" />
+            <state relative-caret-position="489">
+              <caret line="93" column="14" lean-forward="true" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -117,12 +117,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Signup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-543">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/pages/signup.js" />
         <option value="$PROJECT_DIR$/frontend/components/Signin.js" />
         <option value="$PROJECT_DIR$/frontend/components/Signup.js" />
         <option value="$PROJECT_DIR$/frontend/pages/reset.js" />
@@ -215,7 +235,6 @@
         <option value="$PROJECT_DIR$/frontend/components/Order.js" />
         <option value="$PROJECT_DIR$/frontend/pages/orders.js" />
         <option value="$PROJECT_DIR$/backend/src/resolvers/Query.js" />
-        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
         <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
         <option value="$PROJECT_DIR$/frontend/components/Orders.js" />
         <option value="$PROJECT_DIR$/frontend/__tests__/sample.test.js" />
@@ -235,6 +254,8 @@
         <option value="$PROJECT_DIR$/frontend/__tests__/RequestReset.test.js" />
         <option value="$PROJECT_DIR$/frontend/components/CreateItem.js" />
         <option value="$PROJECT_DIR$/frontend/__tests__/CreateItem.test.js" />
+        <option value="$PROJECT_DIR$/frontend/__tests__/Signup.test.js" />
+        <option value="$PROJECT_DIR$/frontend/queries/queries.js" />
       </list>
     </option>
   </component>
@@ -362,14 +383,7 @@
       <workItem from="1542579224438" duration="5824000" />
       <workItem from="1542676023561" duration="3137000" />
       <workItem from="1542679218152" duration="53826000" />
-      <workItem from="1544838954708" duration="15092000" />
-    </task>
-    <task id="LOCAL-00162" summary="Add header search">
-      <created>1544312668900</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1544312668900</updated>
+      <workItem from="1544838954708" duration="16228000" />
     </task>
     <task id="LOCAL-00163" summary="Implement SEARCH_ITEMS_QUERY">
       <created>1544312922845</created>
@@ -707,11 +721,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545001137538</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="Add CreateItem mutation">
+      <created>1545002823943</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1545002823943</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121629000" />
+    <option name="totallyTimeSpent" value="122765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -756,7 +777,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start adding query to Order" />
     <MESSAGE value="Add createdAt and updatedAt fields to Order and re-deploy" />
     <MESSAGE value="Fix bug in order query" />
     <MESSAGE value="Implement list order items" />
@@ -781,7 +801,8 @@
     <MESSAGE value="Remove unnecessary updates" />
     <MESSAGE value="Include pagination snap" />
     <MESSAGE value="Add RequestReset tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add RequestReset tests" />
+    <MESSAGE value="Add CreateItem mutation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CreateItem mutation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -796,32 +817,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/components/DeleteItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/ErrorMessage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/Permissions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
@@ -1020,16 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/__tests__/SingleItem.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1132,16 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/__tests__/RequestReset.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/RequestReset.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1196,6 +1171,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/CreateItem.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="156" column="32" lean-forward="true" selection-start-line="156" selection-start-column="32" selection-end-line="156" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/components/CreateItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-543">
@@ -1206,10 +1191,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/__tests__/CreateItem.test.js">
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/RequestReset.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="162" column="72" lean-forward="true" selection-start-line="162" selection-start-column="72" selection-end-line="162" selection-end-column="72" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/queries/queries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/Signup.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="93" column="14" lean-forward="true" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
