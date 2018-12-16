@@ -4,7 +4,6 @@ import Router from 'next/router';
 
 import { CREATE_ITEM_MUTATION } from '../queries/queries';
 import Form from './styles/Form';
-import formatMoney from '../lib/formatMoney';
 import Error from './ErrorMessage';
 
 // CRUD - create, read, update, delete
@@ -53,7 +52,7 @@ class CreateItem extends Component {
 					  // refetchQueries={}
 					  variables={this.state}>
 				{(createItem, { error, loading }) => (
-					<Form onSubmit={async e => {
+					<Form data-test="form" onSubmit={async e => {
 						// prevent default behaviour of placing string as query params
 						// we get the state in this
 						e.preventDefault();
