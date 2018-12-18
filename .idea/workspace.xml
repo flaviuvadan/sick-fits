@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/__tests__/Charge.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/__tests__/Order.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/__tests__/__snapshots__/Order.test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Charge.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Charge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Order.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,14 +37,14 @@
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="33" />
           <entry key="graphqls" value="6" />
-          <entry key="js" value="294" />
+          <entry key="js" value="298" />
           <entry key="json" value="7" />
           <entry key="jsx" value="1" />
           <entry key="md" value="6" />
           <entry key="prisma" value="2" />
           <entry key="rnc" value="2" />
           <entry key="sample" value="1" />
-          <entry key="snap" value="12" />
+          <entry key="snap" value="15" />
           <entry key="ts" value="6" />
           <entry key="yml" value="4" />
         </counts>
@@ -54,8 +55,8 @@
           <entry key="GraphQL" value="31" />
           <entry key="GraphQL Schema" value="6" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="294" />
-          <entry key="Jest Snapshot" value="12" />
+          <entry key="JavaScript" value="298" />
+          <entry key="Jest Snapshot" value="15" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
@@ -71,11 +72,11 @@
           <entry key="flow" value="2" />
           <entry key="gitignore" value="15" />
           <entry key="graphql" value="2473" />
-          <entry key="js" value="84680" />
+          <entry key="js" value="86044" />
           <entry key="json" value="110" />
           <entry key="md" value="1712" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="8532" />
+          <entry key="txt" value="8593" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -85,9 +86,9 @@
           <entry key="GraphQL" value="2446" />
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
-          <entry key="JavaScript" value="84459" />
+          <entry key="JavaScript" value="85823" />
           <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="9036" />
+          <entry key="PLAIN_TEXT" value="9097" />
           <entry key="Scratch" value="2" />
           <entry key="YAML" value="136" />
         </counts>
@@ -104,11 +105,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="182">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/__tests__/Charge.test.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/__tests__/Order.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="538">
+              <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -116,31 +117,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/__tests__/__snapshots__/Order.test.js.snap">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/components/User.js">
+        <entry file="file://$PROJECT_DIR$/frontend/components/Order.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/__tests__/RemoveFromCart.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="7" selection-end-column="58" />
+            <state relative-caret-position="180">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#177#206#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,8 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend/src/mail.js" />
-        <option value="$PROJECT_DIR$/frontend/pages/sell.js" />
         <option value="$PROJECT_DIR$/frontend/components/SignInWarning.js" />
         <option value="$PROJECT_DIR$/frontend/pages/permissions.js" />
         <option value="$PROJECT_DIR$/backend/src/index.js" />
@@ -223,7 +210,6 @@
         <option value="$PROJECT_DIR$/frontend/pages/order.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js.flow" />
         <option value="$PROJECT_DIR$/backend/datamodel.graphql" />
-        <option value="$PROJECT_DIR$/frontend/components/Order.js" />
         <option value="$PROJECT_DIR$/frontend/pages/orders.js" />
         <option value="$PROJECT_DIR$/backend/src/resolvers/Query.js" />
         <option value="$PROJECT_DIR$/backend/src/schema.graphql" />
@@ -251,8 +237,11 @@
         <option value="$PROJECT_DIR$/frontend/components/AddToCart.js" />
         <option value="$PROJECT_DIR$/frontend/__tests__/AddToCart.test.js" />
         <option value="$PROJECT_DIR$/frontend/__tests__/RemoveFromCart.test.js" />
-        <option value="$PROJECT_DIR$/frontend/__tests__/Charge.test.js" />
         <option value="$PROJECT_DIR$/frontend/components/Charge.js" />
+        <option value="$PROJECT_DIR$/frontend/__tests__/Charge.test.js" />
+        <option value="$PROJECT_DIR$/frontend/__tests__/Order.js" />
+        <option value="$PROJECT_DIR$/frontend/components/Order.js" />
+        <option value="$PROJECT_DIR$/frontend/__tests__/Order.test.js" />
       </list>
     </option>
   </component>
@@ -377,21 +366,7 @@
       <workItem from="1542676023561" duration="3137000" />
       <workItem from="1542679218152" duration="53826000" />
       <workItem from="1544838954708" duration="17397000" />
-      <workItem from="1545007100389" duration="3681000" />
-    </task>
-    <task id="LOCAL-00167" summary="Use Charge in User component">
-      <created>1544374789869</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1544374789869</updated>
-    </task>
-    <task id="LOCAL-00168" summary="Implement StripeCheckout">
-      <created>1544375266486</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1544375266486</updated>
+      <workItem from="1545007100389" duration="5043000" />
     </task>
     <task id="LOCAL-00169" summary="Add Stripe onToken function">
       <created>1544375614318</created>
@@ -722,11 +697,25 @@
       <option name="project" value="LOCAL" />
       <updated>1545094772826</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="Adjust Charge component based on test">
+      <created>1545095214886</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1545095214886</updated>
+    </task>
+    <task id="LOCAL-00217" summary="Add Charge tests">
+      <created>1545095761252</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1545095761252</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127615000" />
+    <option name="totallyTimeSpent" value="128977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -744,7 +733,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32920355" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34356436" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32673267" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32871288" />
       <window_info anchor="bottom" id="GraphQL" order="13" weight="0.3029703" />
@@ -771,8 +760,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add basic Orders rcc" />
-    <MESSAGE value="Add preliminary import statements" />
     <MESSAGE value="Add orders query" />
     <MESSAGE value="Fix backend bug - orderBy" />
     <MESSAGE value="Finish up orders page" />
@@ -796,7 +783,9 @@
     <MESSAGE value="Add Cart tests" />
     <MESSAGE value="Add AddToCart tests" />
     <MESSAGE value="Add removeFromCart tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add removeFromCart tests" />
+    <MESSAGE value="Adjust Charge component based on test" />
+    <MESSAGE value="Add Charge tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Charge tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -810,40 +799,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/pages/sell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/jest.setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1096,16 +1051,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/__tests__/RequestReset.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/__tests__/SignInWarning.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1156,6 +1101,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/__snapshots__/Charge.test.js.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/Charge.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/__tests__/RemoveFromCart.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1166,27 +1142,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/__tests__/Charge.test.js">
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/Order.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/components/Order.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#177#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/RequestReset.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/__snapshots__/Order.test.js.snap">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/components/Charge.js">
+    <entry file="file://$PROJECT_DIR$/frontend/__tests__/Order.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+        <state relative-caret-position="538">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
