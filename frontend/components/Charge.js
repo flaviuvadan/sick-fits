@@ -47,24 +47,27 @@ class Charge extends React.Component {
 	render() {
 		return (
 			<User>
-				{({ data: { currentUser } }) => (
-					<Mutation mutation={CREATE_ORDER_MUTATION} refetchQueries={[{ query: CURRENT_USER_QUERY }]}>
-						{(createOrder) => (
-							<StripeCheckout
-								amount={calcTotalPrice(currentUser.cart)}
-								name="Sick Fits"
-								description={`Order of ${totalItems(currentUser.cart)} items`}
-								image={currentUser.cart.length && currentUser.cart[0].item && currentUser.cart[0].item.image}
-								stripeKey="pk_test_kMeWdXYUASgLL9oF8dI502Pu"
-								currency="USD"
-								email={currentUser.email}
-								token={response => this.onToken(response, createOrder)}
-							>
-								{this.props.children}
-							</StripeCheckout>
-						)}
-					</Mutation>
-				)}
+				{({ data: { currentUser }, loading }) => {
+					if (loading) return <p>Loading...</p>;
+					return (
+						<Mutation mutation={CREATE_ORDER_MUTATION} refetchQueries={[{ query: CURRENT_USER_QUERY }]}>
+							{(createOrder) => (
+								<StripeCheckout
+									amount={calcTotalPrice(currentUser.cart)}
+									name="Sick Fits"
+									description={`Order of ${totalItems(currentUser.cart)} items`}
+									image={currentUser.cart.length && currentUser.cart[0].item && currentUser.cart[0].item.image}
+									stripeKey="pk_test_kMeWdXYUASgLL9oF8dI502Pu"
+									currency="USD"
+									email={currentUser.email}
+									token={response => this.onToken(response, createOrder)}
+								>
+									{this.props.children}
+								</StripeCheckout>
+							)}
+						</Mutation>
+					)
+				}}
 			</User>
 		)
 	}
