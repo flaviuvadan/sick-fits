@@ -24,4 +24,6 @@ CLI)
 1. `git remote add heroku-backend https://git.heroku.com/sick-fits-prod-yoga-backend.git`
 1. To push only sub-folders to the Heroku backend, `git subtree push --prefix backend heroku-backend master`, which will
 push up the `backend` to the `heroku-backend` subtree on the branch master (error logs can be listed via running 
-`heroku logs --tail --app sick-fits-prod-yoga-backend`)
+`heroku logs --tail --app sick-fits-prod-yoga-backend`). Re-building can be performed through the Heroku UI (restart all
+dynos) or through the same git command
+
