@@ -11,4 +11,9 @@ operations on MySQL. GraphQL Yoga is used as a proxy on top of Prisma for
 handling data logic.  
 
 The app is deployed to Heroku, hosting a PostgreSQL database (10000 rows/free), with a server
-deployed on top of the database (0.5GB RAM, 1vCPU/free)
+deployed on top of the database (0.5GB RAM, 1vCPU/free).
+
+Setup steps:
+1. Heroku PostgreSQL 
+2. Heroku server
+3. Prisma deploy (`prisma deploy -- -n`, which will ask what instance to set up on)

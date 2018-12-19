@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a042e7-889c-4d25-a609-68b856b41894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/__tests__/Order.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/__tests__/__snapshots__/Order.test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/components/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/prisma.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prisma.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +30,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MD" value="2" />
-          <entry key="env" value="3" />
+          <entry key="env" value="4" />
           <entry key="flow" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="graphql" value="33" />
@@ -40,29 +38,29 @@
           <entry key="js" value="298" />
           <entry key="json" value="7" />
           <entry key="jsx" value="1" />
-          <entry key="md" value="6" />
+          <entry key="md" value="7" />
           <entry key="prisma" value="2" />
           <entry key="rnc" value="2" />
           <entry key="sample" value="1" />
           <entry key="snap" value="15" />
           <entry key="ts" value="6" />
-          <entry key="yml" value="4" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="3" />
+          <entry key=".env file" value="4" />
           <entry key="GraphQL" value="31" />
           <entry key="GraphQL Schema" value="6" />
           <entry key="JSON" value="7" />
           <entry key="JavaScript" value="298" />
           <entry key="Jest Snapshot" value="15" />
-          <entry key="Markdown" value="7" />
+          <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RNG Compact" value="2" />
           <entry key="Scratch" value="2" />
           <entry key="TypeScript" value="6" />
-          <entry key="YAML" value="4" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,9 +72,9 @@
           <entry key="graphql" value="2473" />
           <entry key="js" value="86044" />
           <entry key="json" value="110" />
-          <entry key="md" value="1712" />
+          <entry key="md" value="1906" />
           <entry key="prisma" value="211" />
-          <entry key="txt" value="8593" />
+          <entry key="txt" value="8631" />
           <entry key="yml" value="136" />
         </counts>
       </usages-collector>
@@ -87,8 +85,8 @@
           <entry key="HTML" value="30" />
           <entry key="JSON" value="110" />
           <entry key="JavaScript" value="85823" />
-          <entry key="Markdown" value="2447" />
-          <entry key="PLAIN_TEXT" value="9097" />
+          <entry key="Markdown" value="2641" />
+          <entry key="PLAIN_TEXT" value="9135" />
           <entry key="Scratch" value="2" />
           <entry key="YAML" value="136" />
         </counts>
@@ -105,14 +103,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="182">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/__tests__/Order.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+            <state relative-caret-position="403">
+              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="195">
+                <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/prisma.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/variables.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -191,7 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/components/SignInWarning.js" />
         <option value="$PROJECT_DIR$/frontend/pages/permissions.js" />
         <option value="$PROJECT_DIR$/backend/src/index.js" />
         <option value="$PROJECT_DIR$/frontend/components/styles/Table.js" />
@@ -242,6 +269,7 @@
         <option value="$PROJECT_DIR$/frontend/__tests__/Order.js" />
         <option value="$PROJECT_DIR$/frontend/components/Order.js" />
         <option value="$PROJECT_DIR$/frontend/__tests__/Order.test.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -288,36 +316,6 @@
               <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
               <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-              <item name="__snapshots__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sick-fits" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sick-fits" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,21 +364,7 @@
       <workItem from="1542676023561" duration="3137000" />
       <workItem from="1542679218152" duration="53826000" />
       <workItem from="1544838954708" duration="17397000" />
-      <workItem from="1545007100389" duration="5043000" />
-    </task>
-    <task id="LOCAL-00169" summary="Add Stripe onToken function">
-      <created>1544375614318</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1544375614318</updated>
-    </task>
-    <task id="LOCAL-00170" summary="Implement new types and deploy Prisma model">
-      <created>1544375827378</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1544375827378</updated>
+      <workItem from="1545007100389" duration="5597000" />
     </task>
     <task id="LOCAL-00171" summary="Add createOrder mutation and start implementing">
       <created>1544376379156</created>
@@ -711,17 +695,31 @@
       <option name="project" value="LOCAL" />
       <updated>1545095761252</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="Add Order tests">
+      <created>1545096572925</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1545096572925</updated>
+    </task>
+    <task id="LOCAL-00219" summary="Update README">
+      <created>1545179540561</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1545179540561</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128977000" />
+    <option name="totallyTimeSpent" value="129531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4960396" visible="true" weight="0.11395101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4960396" visible="true" weight="0.11395101" />
       <window_info id="Favorites" order="1" sideWeight="0.5049505" side_tool="true" weight="0.1348078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
@@ -733,7 +731,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32920355" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32673267" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32871288" />
       <window_info anchor="bottom" id="GraphQL" order="13" weight="0.3029703" />
@@ -760,9 +758,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add orders query" />
-    <MESSAGE value="Fix backend bug - orderBy" />
-    <MESSAGE value="Finish up orders page" />
     <MESSAGE value="Add sample test file" />
     <MESSAGE value="Add formatMoney tests" />
     <MESSAGE value="Add mock learning test" />
@@ -785,7 +780,10 @@
     <MESSAGE value="Add removeFromCart tests" />
     <MESSAGE value="Adjust Charge component based on test" />
     <MESSAGE value="Add Charge tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Charge tests" />
+    <MESSAGE value="Add Order test" />
+    <MESSAGE value="Add Order tests" />
+    <MESSAGE value="Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -799,23 +797,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/__tests__/sample.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/__tests__/formatMoney.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/lib/formatMoney.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1171,11 +1152,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/__tests__/Order.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        <state relative-caret-position="403">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/variables.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/prisma.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
