@@ -18,7 +18,7 @@ Deploying Prisma server to Heroku:
 1. Heroku server
 1. Prisma deploy (`prisma deploy -- -n`, which will ask what instance to set up on)
 
-Deploying Yoga server to Heroku:
+Deploying Yoga server to Heroku (`https://sick-fits-prod-yoga-backend.herokuapp.com/`)
 1. `heroku apps:create sick-fits-prod-yoga-backend` (`brew install heroku/brew/heroku` if you do not have the `heroku` 
 CLI)
 1. `git remote add heroku-backend https://git.heroku.com/sick-fits-prod-yoga-backend.git`
