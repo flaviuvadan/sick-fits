@@ -27,3 +27,8 @@ push up the `backend` to the `heroku-backend` subtree on the branch master (erro
 `heroku logs --tail --app sick-fits-prod-yoga-backend`). Re-building can be performed through the Heroku UI (restart all
 dynos) or through the same git command
 
+
+Deploying frontend:
+1. `heroku apps:create sick-fits-prod-react-frontend`
+1. `git remote add heroku-frontend https://git.heroku.com/sick-fits-prod-react-frontend.git`
+
