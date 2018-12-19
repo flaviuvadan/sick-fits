@@ -28,7 +28,7 @@ push up the `backend` to the `heroku-backend` subtree on the branch master (erro
 dynos) or through the same git command
 
 
-Deploying frontend:
+Deploying frontend (`https://sick-fits-prod-react-frontend.herokuapp.com/`):
 1. `heroku apps:create sick-fits-prod-react-frontend`
 1. `git remote add heroku-frontend https://git.heroku.com/sick-fits-prod-react-frontend.git`
 
