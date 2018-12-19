@@ -9,3 +9,6 @@ GraphQL mutations and fetching.
 The back-end component uses Prisma for CRUD (create, read, update, delete) 
 operations on MySQL. GraphQL Yoga is used as a proxy on top of Prisma for 
 handling data logic.  
+
+The app is deployed to Heroku, hosting a PostgreSQL database (10000 rows/free), with a server
+deployed on top of the database (0.5GB RAM, 1vCPU/free)
